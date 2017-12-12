@@ -52,7 +52,7 @@
 			that.fillSlidesTitle();
 			that.getActualUnitActivities();
 			blink.events.on("course_loaded", function(){
-				parent.formatCarouselindicators();
+				that.formatCarouselindicators();
 				that.enableSliders();
 			});
 			that.animateNavbarOnScroll();
