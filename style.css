@@ -656,7 +656,9 @@ body:not(.edit) .slider-indicators {
 }
 
 /*LISTAS ORDENADAS*/
-
+.content ol li:before, .cke_contents ol li:before{
+    margin-left:0px;
+}
 
 
 #actividad .content .texto_curso .bck-ol li,
@@ -687,7 +689,6 @@ body:not(.edit) .slider-indicators {
 #actividad .content .texto_curso .bck-ol-1 li:before,
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
-	left: -32px;
 	width: 22px;
 	border-radius: 4px;
     position: absolute;
