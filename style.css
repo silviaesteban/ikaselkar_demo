@@ -141,7 +141,16 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     background: #e0ea9a;
 }
 
-
+#book-index #indice .unit-content {
+    margin-top: 0;
+    background: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 20px;
+    background-color: #bacb4e;
+    margin-bottom: 0;
+}
 
 #book-index #indice .unit-content .actividades .item {
     background: #DEDA9D;
@@ -154,7 +163,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
 	color: #fff;
-    background: #EC968C;
+    background: #6fa954;
 }
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a,
@@ -166,7 +175,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
-    background: #E35E47;
+    background: #6fa954;
 }
 
 #indice .unit-content .actividades .item.nivel_6 .title,
