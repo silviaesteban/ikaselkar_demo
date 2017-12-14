@@ -242,7 +242,8 @@ body.is_app #actividad .class_slide {
 
 #actividad .class_slide:last-of-type {
     padding-bottom: 100px;
-    padding-left: 87px!important;
+    padding-left: 87px;
+    padding-top: 0px;
 }
 
 #actividad .slide-concatenate .class_slide {
