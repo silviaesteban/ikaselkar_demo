@@ -165,12 +165,6 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
     background: #6fa954;
 }
 
-body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a,
-#book-index #indice .unit-content .actividades .item.active a,
-#book-index #indice .unit-content .actividades .item.current a {
-	color: #fff;
-}
-
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
