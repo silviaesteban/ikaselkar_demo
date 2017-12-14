@@ -242,6 +242,7 @@ body.is_app #actividad .class_slide {
 
 #actividad .class_slide:last-of-type {
     padding-bottom: 100px;
+    padding-left: 87px!important;
 }
 
 #actividad .slide-concatenate .class_slide {
@@ -608,6 +609,7 @@ body:not(.edit) .slider-indicators {
 #actividad .workspace ul li li {
 	position: relative;
 	margin-bottom: 10px;
+	margin-left: 36px;
 }
 
 #actividad .texto_curso li:last-of-type,
