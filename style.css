@@ -347,7 +347,7 @@ fieldset[disabled] .slide_main input {
 
 .ikaselkar_demo-navbar {
 	position: fixed;
-	bottom: 86%;
+	top:40px;
 	left: 0;
 	z-index: 100;
 	width: 100%;
