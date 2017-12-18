@@ -658,6 +658,28 @@ body:not(.edit) .slider-indicators {
     border-bottom: 0px;
 }
 
+.bck-title-5 {
+    font-size: 2.4rem;
+    color: #4dacde;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #52addf;
+    margin-bottom: 36px;
+}
+
+
+.bck-title-5:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(/useruploads/r/a/85191539/activity_other_imported/Aplikazio-jarduera.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
 
 
 .bck-enfasis {
@@ -1783,4 +1805,3 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
-
