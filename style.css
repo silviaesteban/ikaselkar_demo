@@ -1723,3 +1723,15 @@ table td.bck-td-4 {
     background: #039BDB!important;
      border-left: 10px solid  #0474a3;
 }
+
+
+
+/*logo*/
+.body_clase .logo-publisher {
+    float: left;
+    display: block;
+    width: 50px;
+    height: 30px;
+    margin: 9px 0;
+    background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
+}
