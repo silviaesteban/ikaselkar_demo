@@ -798,14 +798,15 @@ body:not(.edit) .slider-indicators {
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
 #actividad .popover-content ol.bck-ol-3 li:before,
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
-   	width: 22px;
-	border-radius: 4px;
+    width: 22px;
+    border-radius: 4px;
     position: absolute;
-	text-align: center!important;
-	color: #fff!important;
-	background-color: #71C169;
-	font-weight: 600!important;
+    text-align: center!important;
+    color: #fff!important;
+    background-color: #069bda;
+    font-weight: 600!important;
     font-family: sans-serif;
+    margin-left: -28px;
 }
 /**/
 
@@ -1736,4 +1737,3 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
-
