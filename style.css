@@ -8,7 +8,7 @@ body {
 .body_clase .content-wrapper,
 .body_clase.view-mode .content-wrapper {
 	padding-top: 44px;
-padding-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .body_clase .content-wrapper.modo-revision,
@@ -1805,3 +1805,4 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
+
