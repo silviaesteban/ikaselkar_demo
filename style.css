@@ -543,6 +543,7 @@ body:not(.edit) .slider-indicators {
 
 #actividad .content .bck-img-align-right {
 	float: right;
+	padding: 6px;
 }
 
 #actividad .content .bck-img-align-center {
