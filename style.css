@@ -820,13 +820,12 @@ body:not(.edit) .slider-indicators {
 
 .bck-box.center {
 	display: block;
-	background-color: #F2F2F3;
+	background-color: #AAD8F3;
     border-radius: 20px;
     border-bottom-right-radius: 20px;
     text-align: left;
     padding: 5px;
-    margin-top: 25px;
-    border: 6px solid #CEDD46;
+
 }
 .bck-box p {
 	display: inline-block;
@@ -853,8 +852,8 @@ body:not(.edit) .slider-indicators {
 
 .bck-box .bck-content {
 	text-align: justify;
-	padding: 10px 14px 10px 63px;
-}
+	padding-left: 20px;
+	padding-right: 25px;
 
 /*CAJA1*/
 
@@ -865,32 +864,13 @@ body:not(.edit) .slider-indicators {
 
 .bck-box-1 .bck-title {
     border-bottom: 0px solid #eee;
-    color: #9acb1e;
+    color: #069BDA;
     font-size: 2.1rem;
     font-weight: bold;
+    padding-left: 25px;
 }
 
-.bck-box.bck-box-1 .bck-content {
-    padding-left: 80px;
-}
 
-.bck-box.bck-box-1:before {
-	content: "\f0eb";
-	position: absolute;
-	top: 3px;
-	left: 5px;
-	z-index: 100;
-	width: 62px;
-	height: 62px;
-    border: 5px solid #fff;
-	-webkit-border-radius: 100%;
-	   -moz-border-radius: 100%;
-	        border-radius: 100%;
-    padding: 17px 3px 5px 5px;
-	color: white;
-	font-size: 3.5rem;
-    font-family: 'FontAwesome';
-}
 
 .bck-box.bck-box-1:after {
 	content: "";
