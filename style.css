@@ -798,13 +798,14 @@ body:not(.edit) .slider-indicators {
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
 #actividad .popover-content ol.bck-ol-3 li:before,
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
-	content: counter(bck-li-counter, lower-alpha);
-    margin-top: 1px;
-    padding-right: 0px;
-	color: #A9A9A9;
-	font-size: 1.4rem;
-	font-weight: bold;
-    text-align: right;
+   	width: 22px;
+	border-radius: 4px;
+    position: absolute;
+	text-align: center!important;
+	color: #fff!important;
+	background-color: #71C169;
+	font-weight: 600!important;
+    font-family: sans-serif;
 }
 /**/
 
