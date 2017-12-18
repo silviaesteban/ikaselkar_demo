@@ -856,14 +856,6 @@ body:not(.edit) .slider-indicators {
 	padding-right: 25px;
 }
 
-.bck-box .bck-title {
-    color: #069BDA;
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    font-weight: 600;
-    padding-left: 13px;
-}
-
 /*CAJA1*/
 
 .bck-box.bck-box-1 {
@@ -872,11 +864,11 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-box-1 .bck-title {
-    border-bottom: 0px solid #eee;
     color: #069BDA;
-    font-size: 2.1rem;
-    font-weight: bold;
-    padding-left: 25px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    padding-left: 13px;
 }
 
 
