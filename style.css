@@ -1727,7 +1727,7 @@ table td.bck-td-4 {
 
 
 /*logo*/
-.body_clase .logo-publisher {
+.body_clase:not(.edit) .logo-publisher {
     float: left;
     display: block;
     width: 50px;
