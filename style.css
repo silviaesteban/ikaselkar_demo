@@ -854,6 +854,15 @@ body:not(.edit) .slider-indicators {
 	text-align: justify;
 	padding-left: 20px;
 	padding-right: 25px;
+}
+
+.bck-box .bck-title {
+    color: #069BDA;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    padding-left: 13px;
+}
 
 /*CAJA1*/
 
