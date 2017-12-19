@@ -147,7 +147,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     top: 0;
     left: 0;
     z-index: 1;
-    background: #e0ea9a;
+    background: #e3e3e3;
 }
 
 #book-index #indice .unit-content {
@@ -157,10 +157,9 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     -moz-border-radius: 0;
     border-radius: 0;
     padding: 20px;
-    background-color: #bacb4e;
+    background-color: #ccc;
     margin-bottom: 0;
 }
-
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units ul li.active a {
     color: #fff;
@@ -174,17 +173,20 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
     opacity: 1;
 }
 
+
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
-	color: #fff;
-    background: #6fa954;
+    color: #fff;
+    background: #eee;
 }
+
+
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
-    background: #6fa954;
+    background: #999;
 }
 
 #indice .unit-content .actividades .item.nivel_6 .title,
@@ -1999,3 +2001,17 @@ table td.bck-td-4 {
 		bottom:0 ;
 	}
 }
+
+
+
+
+/*logo*/
+.body_clase:not(.edit) .logo-publisher {
+    float: left;
+    display: block;
+    width: 50px;
+    height: 30px;
+    margin: 9px 0;
+    background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
+}
+
