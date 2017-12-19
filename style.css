@@ -162,7 +162,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 }
 
 
-body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units ul li.active a {
     color: #fff;
     padding: 25px;
 }
@@ -2012,3 +2012,4 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
+
