@@ -151,7 +151,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     top: 0;
     left: 0;
     z-index: 1;
-    background: #e3e3e3;
+    background: transparent;
+    box-shadow: none;
 }
 
 #book-index #indice .unit-content {
