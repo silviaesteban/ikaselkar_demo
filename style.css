@@ -1999,17 +1999,3 @@ table td.bck-td-4 {
 		bottom:0 ;
 	}
 }
-
-
-
-
-/*logo*/
-.body_clase:not(.edit) .logo-publisher {
-    float: left;
-    display: block;
-    width: 50px;
-    height: 30px;
-    margin: 9px 0;
-    background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
-}
-
