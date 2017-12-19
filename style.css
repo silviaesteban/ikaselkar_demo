@@ -760,7 +760,7 @@ body:not(.edit) .slider-indicators {
     color: #DE1576;
     font-weight: 600;
     position: relative;
-    border-bottom: 1px solid #52addf;
+    border-bottom: 1px solid #DE1576;
     margin-bottom: 36px;
 }
 
@@ -784,7 +784,7 @@ body:not(.edit) .slider-indicators {
     color: #DE1576;
     font-weight: 600;
     position: relative;
-    border-bottom: 1px solid #52addf;
+    border-bottom: 1px solid #DE1576;
     margin-bottom: 36px;
 }
 
