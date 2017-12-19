@@ -3,6 +3,10 @@ body {
 	height: 100vh;
 	font-size: 1.7rem;
 	font-weight: 300;
+    font: 400 15px 'Source Sans Pro',sans-serif;
+    line-height: 21px;
+    color: #414141;
+    background-color: #fff;
 }
 
 .body_clase .content-wrapper,
@@ -203,6 +207,13 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
+}
+
+
+
+#indice .unit-content .content {
+    display: block !important;
+    border: solid 1px #777;
 }
 
 /*HEADER*/
@@ -1647,7 +1658,7 @@ table td.bck-td-4 {
 }
 
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
-    background-color: #9ACB1E;
+    background-color: #555;
 }
 
 /**/
