@@ -132,8 +132,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 
 /*hover*/
-#list-units li:hover, #list-units li:active {
-    width: 340px;
+#list-units li:hover, #list-units li:focus {
+    width: 310px;
 }
 
 
