@@ -1092,6 +1092,18 @@ body:not(.edit) .slider-indicators {
 	content: '';
 }
 
+
+
+.bck-box.bck-box-3.center {
+    display: block;
+    background-color: #eee;
+    border-radius: 20px;
+    border-left: 16px solid #ffcf29;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    padding: 5px;
+}
+
 /**/
 
 /*ENLACES*/
