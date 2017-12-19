@@ -178,6 +178,14 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 }
 
 
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
+#book-index #indice .units ul li.active a {
+    color: #fff;
+    padding: 25px;
+    font-weight: 700;
+}
+
+
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
@@ -2025,3 +2033,4 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
+
