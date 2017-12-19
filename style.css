@@ -62,6 +62,17 @@ body {
 
 /*INDICE LATERAL*/
 
+
+#indice .units ul li a .title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin: -21px 0 0 35px;
+    line-height: 18px;
+    display: block;
+}
+
+
 .libro-left #btn-book-index,
 #indice .unit-content {
     -webkit-border-radius: 0;
@@ -121,8 +132,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 
 /*hover*/
-#list-units li:hover {
-    width: 310px;
+#list-units li:hover, #list-units li:active {
+    width: 340px;
 }
 
 
@@ -1989,29 +2000,6 @@ table td.bck-td-4 {
 	}
 }
 
-
-
-
-/*toc*/
-/*colores de las unidades*/
-#list-units li:nth-of-type(1) {
-    background: #71a954!important;
-}
-#list-units li:nth-of-type(2) {
-    background: #71a954!important;
-}
-#list-units li:nth-of-type(3) {
-    background: #039BDB!important;
-     border-left: 10px solid  #0474a3;
-}
-#list-units li:nth-of-type(4) {
-    background: #039BDB!important;
-     border-left: 10px solid  #0474a3;
-}
-#list-units li:nth-of-type(5) {
-    background: #EB8FB8!important;
-     border-left: 10px solid #DE1576;
-}
 
 
 
