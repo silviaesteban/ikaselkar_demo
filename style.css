@@ -755,6 +755,57 @@ body:not(.edit) .slider-indicators {
 
 
 
+.bck-title-9 {
+    font-size: 2.4rem;
+    color: #DE1576;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #52addf;
+    margin-bottom: 36px;
+}
+
+
+.bck-title-9:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(/useruploads/r/a/85239299/activity_other_imported/Integrazio-jarduera-konplexua.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+
+
+.bck-title-10 {
+    font-size: 2.4rem;
+    color: #DE1576;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #52addf;
+    margin-bottom: 36px;
+}
+
+
+.bck-title-10:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(/useruploads/r/a/85239319/activity_other_imported/Autorregulazio-jarduera-rosa.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+
+
+
+
+
 .bck-enfasis {
     color: #e76048;
     font-weight: bold;
@@ -1103,6 +1154,21 @@ body:not(.edit) .slider-indicators {
     text-align: left;
     padding: 5px;
 }
+
+
+.bck-box-4.center {
+    background-color: #f9cadf;
+    padding: 15px;
+    border-radius: 22px;
+}
+
+
+.bck-box-4.center .bck-title {
+    font-size: 2.4rem;
+    color: #df1b7a;
+    font-weight: 600;
+}
+
 
 /**/
 
@@ -1879,6 +1945,10 @@ table td.bck-td-4 {
 #list-units li:nth-of-type(4) {
     background: #039BDB!important;
      border-left: 10px solid  #0474a3;
+}
+#list-units li:nth-of-type(5) {
+    background: #EB8FB8!important;
+     border-left: 10px solid #DE1576;
 }
 
 
