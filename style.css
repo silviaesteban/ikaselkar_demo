@@ -1094,7 +1094,7 @@ body:not(.edit) .slider-indicators {
 
 
 
-.bck-box.bck-box-3.center {
+.bck-box-3.center {
     display: block;
     background-color: #eee;
     border-radius: 20px;
