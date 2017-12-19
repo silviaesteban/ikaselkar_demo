@@ -209,6 +209,13 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     background: #999;
 }
 
+#book-index #indice .unit-content .content,
+#book-index #indice .unit-content .actividades {
+    padding: 10px;
+    margin-top: 0;
+}
+
+
 #indice .unit-content .actividades .item.nivel_6 .title,
 #indice .unit-content .actividades .item.nivel_6 .text {
 	padding-left: 0;
