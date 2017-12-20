@@ -60,7 +60,6 @@
 		init: function () {
 			var parent = blink.theme.styles.basic.prototype,
 				that = this;
-			that.activityDropdown();
 			parent.init.call(that);
 			that.addActivityTitle();
 			if(window.esWeb) return;
@@ -71,7 +70,6 @@
 				that.enableSliders();
 			});
 			that.animateNavbarOnScroll();
-			that.initDropdown();
 			parent.initInfoPopover();
 			that.addSlideNavigators();
 		},
@@ -350,134 +348,6 @@
 				(scrollTop > lastScrollTop && scrollTop) ? $navbar.addClass('ocultar') : $navbar.removeClass('ocultar');
 				lastScrollTop = scrollTop;
 			});
-		},
-
-		/**
-		 * @summary Sets concatenate slides inside a dropdown with togglable tabs.
-		 */
-		activityDropdown: function () {
-			for(var index = 1; index < secuencia.length; index++) {
-				var slide = eval('t'+index+'_slide'),
-					prevSlide = eval('t' + (index - 1) + '_slide'),
-					not_exercise = [1, 16, 24];
-				// Checks if the slide is type exercise and concatenate
-				if (slide.isConcatenate && $.inArray(slide.tipo, not_exercise) == -1) {
-					var $slide = $('#t'+index+'pg'),
-						$slide_container = $slide.closest('.item-container'),
-						tab_index;
-					// Constructs the containing dropdown if it doesn't exists
-					if ($.inArray(prevSlide.tipo, not_exercise) != -1 || !prevSlide.isConcatenate) {
-						var dropdown =
-							'<div class="bck-dropdown bck-dropdown-2 activities-dropdown">' +
-								'<div class="bck-dropdown-button">' +
-									'<div class="bck-dropdown-icon">' +
-										'<div class="fa fa-chevron-down"></div>' +
-									'</div>' +
-									'<div class="bck-dropdown-titulo">' +
-										textweb('activities') +
-									'</div>' +
-								'</div>' +
-								'<div class="bck-dropdown-content">' +
-									// Nav-tabs
-  									'<ul class="nav nav-tabs" role="tablist"></ul>' +
-									// Tab-panes
-  									'<div class="tab-content"></div>' +
-								'</div>' +
-							'</div>';
-						var slide_main = $('#t'+(index-1)+'pg').closest('.js-slide-wrapper');
-						$(slide_main).append(dropdown);
-						tab_index = 1;
-					}
-					var dropdown_container = $slide_container.find('.activities-dropdown').last(),
-						nav_tabs = $(dropdown_container).find('.nav-tabs')[0],
-						tab_content = $(dropdown_container).find('.tab-content')[0],
-						$concatenate_slide;
-
-					// Creates a tab and a pane for each concatenate slide
-					$(nav_tabs).append('<li role="presentation">' +
-							'<a href="#activity-' + index + '" aria-controls="activity-' + index + '" role="tab" data-toggle="tab">' +
-								tab_index +
-							'</a>' +
-						'</li>');
-
-					$(tab_content).append('<div role="tabpanel" class="tab-pane" id="activity-' + index + '">' +
-						'</div>');
-
-					// Detaches the concatenate slide and appends it to its pane
-					$concatenate_slide = $slide.closest('.slide-concatenate').detach();
-					$concatenate_slide.appendTo('#activity-' + index);
-
-					// Sets the first activity to active
-					if (tab_index == 1) {
-						$('a[href="#activity-' + index + '"]').closest('li').addClass('active');
-						$('#activity-' + index).addClass('active');
-					}
-
-					// Gives each concatenate activity the box-2 style
-					$('#transp' + index).addClass('bck-box bck-box-2');
-					$('#transp' + index + ' > .header').addClass('bck-title js--title');
-					$('#transp' + index + ' > *:not(.header)').wrapAll('<div class="bck-content" />');
-
-					tab_index++;
-				}
-			}
-		},
-
-		initDropdown : function () {
-			$(".bck-dropdown-button")
-				.find('.fa').text('').end() //Eliminar el &nbsp;
-				.toggle(
-					function(){
-						$(this).parent('.bck-dropdown')
-							.addClass('open')
-							.find('.fa').removeClass('fa-chevron-down').addClass('fa-chevron-up').end()
-							.find(".bck-dropdown-content").slideDown(300, function() {
-								if($(this).parent('.bck-dropdown').hasClass('activities-dropdown')
-									&& blink.activity.currentStyle.getActivePane()) {
-									var actividad = $('.tab-pane.active').attr('id');
-									var index = actividad.split('-').pop();
-									var slide = window['t' + index + '_slide'];
-									slide.onAfterShowSlide();
-								}
-							});
-
-					},
-					function(){
-						$(this).parent('.bck-dropdown')
-							.removeClass('open')
-							.find('.fa').removeClass('fa-chevron-up').addClass('fa-chevron-down').end()
-							.find(".bck-dropdown-content").slideUp(300);
-					}
-				);
-		},
-
-		// Busca la id de la última slide de un dropdown con la que se ha interactuado y
-		// guarda en el suspend data.
-		// @param {string} activePane 	Id del panel en el que se encuentra la slide
-		setActivePane : function (activePane) {
-			if (!!activePane && !!scormAPI) {
-				var slideId = $(activePane).find('.class_slide').attr('data-id'),
-					parentSlide = window['t' + window.activeSlide + '_slide'];
-				parentSlide.sublocation = slideId;
-			}
-		},
-
-		// Mira a ver si se ha guardado alguna slide del dropdown en el suspend data y,
-		// en caso de ser así, la pone como activa.
-		getActivePane : function () {
-			var currentSlide = window['t' + window.activeSlide + '_slide'];
-			if (currentSlide.sublocation) {
-				var activePane = $('.class_slide[data-id="' + currentSlide.sublocation + '"]')
-								.closest('.tab-pane'),
-					activeDropdown = $(activePane).closest('.bck-dropdown');
-				$(activeDropdown)
-					.find('a[href="#' + $(activePane).attr('id') + '"]')
-					.first()
-					.tab('show');
-				return true;
-			} else {
-				return true;
-			}
 		}
 	};
 
