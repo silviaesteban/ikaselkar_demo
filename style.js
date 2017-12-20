@@ -66,6 +66,7 @@
 			that.fillSlidesTitle();
 			that.getActualUnitActivities();
 			blink.events.on("course_loaded", function(){
+				that.formatCarouselindicators();
 				that.enableSliders();
 			});
 			that.animateNavbarOnScroll();
@@ -161,6 +162,92 @@
 			}
 
 			return actualSlide;
+		},
+
+		formatCarouselindicators: function () {
+			var that = this,
+				$navbarBottom = $('.navbar-bottom'),
+				firstSlide = eval('t0_slide');
+			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
+			var yearCopy = courseYearCreated !== undefined ? courseYearCreated : 2016;
+			$navbarBottom
+				.attr('class', 'ikaselkar_demo-navbar')
+				.wrapInner('<div class="navbar-content"></div>')
+				.find('ol')
+					.before('<span class="copyright">&copy;' +  yearCopy + '</span>')
+					.wrap('<div id="top-navigator"/>')
+					.remove()
+					.end();
+
+			$('#volverAlIndice').click(function() {
+				return showCursoCommit();
+			});
+
+			var subunits = that.subunits,
+				totalSlides = 0,
+				subunit_index,
+				subunit_pags;
+
+			// Different behaviour depending on whether the slides are accessed from
+			// a book or from a homework link or similar
+			if (subunits.length !== 0) {
+				for (var i in subunits) {
+					if (subunits[i].pags) {
+						var subunitSlides = parseInt(subunits[i].pags);
+						totalSlides += subunitSlides;
+					}
+					if (subunits[i].id && subunits[i].id == idclase) {
+						subunit_index = i;
+						subunit_pags = parseInt(subunits[i].pags);
+					}
+				}
+
+				that.totalSlides = totalSlides;
+
+				$('#top-navigator').append('<span class="left slider-navigator">' +
+						'<span class="fa fa-chevron-left"></span>' +
+					'</span>' +
+					'<span class="slide-counter" data-subunit-index="' + subunit_index +
+						'" data-subunit-pags="' + subunit_pags + '">' +
+						that.getActualSlideNumber(subunits) + ' / ' + totalSlides +
+					'</span>' +
+					'<span class="right slider-navigator">' +
+						'<span class="fa fa-chevron-right"></span>' +
+					'</span>');
+
+				blink.events.on('section:shown', function() {
+					$('.slide-counter').html(that.getActualSlideNumber(subunits) +
+						' / ' + totalSlides);
+				});
+			} else {
+				$('#top-navigator').append('<span class="left slider-navigator">' +
+						'<span class="fa fa-chevron-left"></span>' +
+					'</span>' +
+					'<span class="slide-counter">' + (window.activeSlide + 1) +
+						' / ' + window.secuencia.length +
+					'</span>' +
+					'<span class="right slider-navigator">' +
+						'<span class="fa fa-chevron-right"></span>' +
+					'</span>');
+
+				blink.events.on('section:shown', function() {
+					$('.slide-counter').html((window.activeSlide + 1) +
+						' / ' + window.secuencia.length);
+					$('.bck-dropdown-2').hideBlink();
+				});
+			}
+
+			blink.events.on('section:shown', function() {
+				var sectionTitle = eval('t' + blink.activity.getFirstSlideIndex(window.activeSlide) +
+					'_slide').title;
+				$navbarBottom.find('.sectionTitle').text(sectionTitle);
+			});
+
+			if (firstSlide.seccion) {
+				$navbarBottom.addClass('first-is-section');
+			}
+
+			blink.events.trigger(true, 'style:endFormatCarousel');
 		},
 
 		addSlideNavigators: function () {
