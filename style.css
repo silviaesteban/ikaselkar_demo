@@ -1,4 +1,4 @@
-/*General */
+    /*General */
 body {
 	height: 100vh;
 	font-size: 1.7rem;
@@ -1860,6 +1860,13 @@ table td.bck-td-4 {
     font-size: 1.8rem;
     padding-left: 0px;
 }
+
+
+.bck-dropdown-content {
+    overflow-y: visible;
+
+}
+
 
 .bck-dropdown-1 .bck-dropdown-content {
 	background-color: #fff;
