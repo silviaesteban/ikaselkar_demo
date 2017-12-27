@@ -855,6 +855,10 @@ color:black;
     font-weight: bold;
 }
 
+strong {
+    color: black;
+}
+
 /*LISTAS DESORDENADAS*/
 
 .texto_curso ul li {
@@ -2047,3 +2051,4 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
+
