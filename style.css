@@ -852,7 +852,7 @@ body:not(.edit) .slider-indicators {
 
 .bck-enfasis, strong{
 color:black;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 strong {
