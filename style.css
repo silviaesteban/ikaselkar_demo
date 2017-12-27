@@ -1862,17 +1862,12 @@ table td.bck-td-4 {
 }
 
 
-.bck-dropdown-content {
-    overflow-y: visible;
-
-}
-
-
 .bck-dropdown-1 .bck-dropdown-content {
 	background-color: #fff;
 	border: 1px solid #DDDDDD;
     padding-left: 17px;
 	max-height: 800%;
+    overflow-y: visible;
 }
 
 /**/
