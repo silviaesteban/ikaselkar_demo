@@ -184,6 +184,8 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
     color: #fff;
     padding: 25px;
     font-weight: 700;
+    text-align: right;
+    background-color:transparent;
 }
 
 
@@ -192,13 +194,6 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 #book-index #indice .unit-content .actividades .item.current {
     color: #fff;
     background: #eee;
-}
-
-
-body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-#book-index #indice .units ul li.active a {
-    color: #fff;
-    background-color:#ccc;
 }
 
 
