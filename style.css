@@ -101,16 +101,6 @@ body {
 	        border-radius: 0px;
 }
 
-#indice .units ul li.active:not(.disabled),
-#indice .units ul li:focus:not(.disabled) {
-    background: #E76048;
-}
-
-#indice .units ul li.hover:not(.disabled),
-body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
-#indice .units ul li:hover:not(.disabled) {
-    background: #EC968C;
-}
 
 #book-index #indice .unit-content a,
 #indice .units ul li a,
@@ -2027,6 +2017,9 @@ table td.bck-td-4 {
 		bottom:0 ;
 	}
 }
+
+
+
 
 /*logo*/
 .body_clase:not(.edit) .logo-publisher {
