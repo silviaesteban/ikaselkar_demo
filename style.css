@@ -141,12 +141,6 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 }
 
 
-/*navbar izquierdo*/
-#list-units li{
-    background: #6fa954 ;
-    border-left: 10px solid green;
-}
-
 #book-index .col-main {
     top: 0;
     left: 0;
@@ -2034,9 +2028,6 @@ table td.bck-td-4 {
 	}
 }
 
-
-
-
 /*logo*/
 .body_clase:not(.edit) .logo-publisher {
     float: left;
@@ -2046,4 +2037,3 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
-
