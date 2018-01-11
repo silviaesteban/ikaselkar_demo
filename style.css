@@ -160,6 +160,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
     margin: 0px -20px 2px -20px;
     padding-left: 25px;
     opacity: 1;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 
