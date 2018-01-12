@@ -368,6 +368,18 @@ fieldset[disabled] .slide_main input {
 	background: #B6ECFF;
 }
 
+
+
+
+/*cajas de videos*/
+.video-verde {
+    border: solid 10px #8ebb1e;
+}
+
+
+
+
+
 /* NAVBAR (Breadcums) */
 #top-navigator {
 	float: right;
