@@ -374,6 +374,7 @@ fieldset[disabled] .slide_main input {
 /*cajas de videos*/
 .video-verde {
     border: solid 10px #8ebb1e;
+    border-radius: 10px;
 }
 
 
