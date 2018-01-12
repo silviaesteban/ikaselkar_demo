@@ -376,7 +376,14 @@ fieldset[disabled] .slide_main input {
     border: solid 10px #8ebb1e;
     border-radius: 10px;
 }
-
+.video-azul {
+    border: solid 10px #6e8fc5;
+    border-radius: 10px;
+}
+.video-rosa {
+    border: solid 10px #ba4990;
+    border-radius: 10px;
+}
 
 
 
