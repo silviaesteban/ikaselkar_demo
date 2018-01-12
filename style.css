@@ -13,6 +13,8 @@ body {
 .body_clase.view-mode .content-wrapper {
 	padding-top: 0px;
 	padding-bottom: 0px;
+    margin-top: -20px;
+
 }
 
 .body_clase .content-wrapper.modo-revision,
