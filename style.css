@@ -276,7 +276,9 @@ footer {
 }
 
 #actividad .class_slide {
-	padding: 40px 97px 0px;
+	padding-bottom: 100px;
+    padding-left: 87px;
+    padding-top: 11px;
 }
 
 body.is_app #actividad .class_slide {
