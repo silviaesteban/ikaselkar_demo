@@ -1647,13 +1647,12 @@ strong {
 /**TABLA**/
 table,
 .bck-table {
-	border: 1px solid #fff;
+	border: none;
 }
 
 table td,
 .bck-table td {
 	padding: 10px;
-	border-color: #fff;
 }
 
 table td.bck-td-1 {
