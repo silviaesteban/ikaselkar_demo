@@ -1646,9 +1646,8 @@ strong {
 
 /**TABLA**/
 
-.cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
-    border: none;
-    padding: 0px;
+.content table:not(.rf-tablegrid){
+    border:none;
 }
 
 
