@@ -1645,13 +1645,17 @@ strong {
 /**/
 
 /**TABLA**/
-table,
-.bck-table {
+
+.cke_contents table:not(.rf-tablegrid), .content table:not(.rf-tablegrid) {
+    border: none;
+}
+
+
+table, .bck-table {
 	border: none;
 }
 
-table td,
-.bck-table td {
+table td, .bck-table td {
 	padding: 10px;
 }
 
