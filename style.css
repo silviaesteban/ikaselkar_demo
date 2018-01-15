@@ -1650,6 +1650,11 @@ strong {
     border: none;
 }
 
+.cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
+    border: none;
+    padding: 0px;
+}
+
 
 table, .bck-table {
 	border: none;
