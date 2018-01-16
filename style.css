@@ -386,6 +386,20 @@ fieldset[disabled] .slide_main input {
 }
 
 
+/*caja de actividad*/
+
+.bck-box.caja-actividad.center {
+    background-color: white;
+    border: #2cbabd 11px solid;
+}
+
+.caja-actividad .bck-title {
+    background-color: #2cbabd;
+    margin: -9px;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 6px;
+}
 
 
 /* NAVBAR (Breadcums) */
@@ -2053,6 +2067,8 @@ table td.bck-td-4 {
 		bottom:0 ;
 	}
 }
+
+
 
 
 /*logo*/
