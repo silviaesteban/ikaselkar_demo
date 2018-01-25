@@ -292,7 +292,7 @@ body.is_app #actividad .class_slide {
 }
 
 #actividad .slide-concatenate .class_slide {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 #actividad .slide-concatenate:last-of-type .class_slide {
