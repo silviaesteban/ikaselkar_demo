@@ -271,6 +271,12 @@ footer {
 
 /**/
 
+
+/*sopa de letras*/
+.rf-tablegrid-wrap table td {
+    padding: 0px;
+}
+
 #actividad .texto_curso {
 	font-size:16px;
 }
