@@ -1,9 +1,9 @@
     /*General */
 body {
 	height: 100vh;
-	font-size: 1.7rem;
+	font-size:16px;
 	font-weight: 300;
-    font: 400 15px 'Source Sans Pro',sans-serif;
+    font: 400 'Source Sans Pro',sans-serif;
     line-height: 21px;
     color: #414141;
     background-color: #fff;
@@ -2067,8 +2067,6 @@ table td.bck-td-4 {
 		bottom:0 ;
 	}
 }
-
-
 
 
 /*logo*/
