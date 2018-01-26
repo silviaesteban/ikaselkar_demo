@@ -982,7 +982,7 @@ strong {
 	content: counter(bck-li-counter);
 	position: absolute;
 	left: 0px!important;
-	width: 22px;
+	width: 28px;
 	text-align: end;
 	color: #fff;
     font-size: 1.9rem;
@@ -1028,7 +1028,7 @@ strong {
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .popover-content ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-	content: counter(bck-li-counter, lower-alpha);
+	content: counter(bck-li-counter, lower-alpha)")";
 	color: #71C169!important;
 	font-weight: bold;
     margin-top: 0;
@@ -1083,7 +1083,7 @@ strong {
 }
 
 #actividad .content .texto_curso ol.bck-ol-4 li:before, #actividad .popover-content ol.bck-ol-4 li:before, #actividad .content .workspace ul li ol.bck-ol-4 li:before {
-    content: counter(bck-li-counter, lower-alpha);
+    content: counter(bck-li-counter, lower-alpha)")";
     color: #069BDA!important;
     font-weight: bold;
     margin-top: 0;
@@ -1141,7 +1141,7 @@ strong {
 }
 
 #actividad .content .texto_curso ol.bck-ol-6 li:before, #actividad .popover-content ol.bck-ol-6 li:before, #actividad .content .workspace ul li ol.bck-ol-6 li:before {
-    content: counter(bck-li-counter, lower-alpha);
+    content: counter(bck-li-counter, lower-alpha)")";
     color: #DE1576!important;
     font-weight: bold;
     margin-top: 0;
@@ -1673,13 +1673,6 @@ strong {
 /**/
 
 /**TABLA**/
-
-
-.cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
-    border: 2px solid transparent;
-    padding: 7px;
-}
-
 
 
 table td, .bck-table td {
