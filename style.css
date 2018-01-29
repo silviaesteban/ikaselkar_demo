@@ -394,7 +394,7 @@ fieldset[disabled] .slide_main input {
 }
 
 
-.bck-box .caja-verde .bck-content {
+.bck-box.center.caja-verde .bck-content {
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
