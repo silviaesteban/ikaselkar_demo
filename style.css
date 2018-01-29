@@ -1676,9 +1676,8 @@ strong {
 
 
 .content table:not(.rf-tablegrid) td{
-    border: none;
+    border: transparent;
 }
-
 
 table td, .bck-table td {
 	padding: 10px;
@@ -1748,7 +1747,6 @@ table td.bck-td-4 {
 	bottom:0 ;
 	background-color: transparent;
 	z-index: -1;
-
 }
 
 /* CKEDITOR */
