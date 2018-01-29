@@ -383,6 +383,22 @@ fieldset[disabled] .slide_main input {
 }
 
 
+/*caja verde*/
+
+.bck-box.center.caja-verde{
+    display: block;
+    padding-bottom: 0px;
+    line-height: 1.43em;
+    font-size: 1em;
+    background-color: #B2CD63;
+}
+
+
+.bck-box .caja-verde .bck-content {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
 /*cajas de videos*/
