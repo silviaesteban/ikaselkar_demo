@@ -1174,7 +1174,7 @@ strong {
 .bck-box {
 	position: relative;
 	max-width: 100%;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
     text-align: left;
 	background: #F3F4E2;
 }
@@ -1213,8 +1213,8 @@ strong {
 
 .bck-box .bck-content {
 	text-align: justify;
-	padding-left: 20px;
-	padding-right: 25px;
+	padding-left: 10px;
+	padding-right: 15px;
 }
 
 /*CAJA1*/
