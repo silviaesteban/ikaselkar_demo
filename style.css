@@ -1675,6 +1675,11 @@ strong {
 /**TABLA**/
 
 
+.content table:not(.rf-tablegrid) td{
+    border: none;
+}
+
+
 table td, .bck-table td {
 	padding: 10px;
 }
