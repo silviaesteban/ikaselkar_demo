@@ -1675,8 +1675,9 @@ strong {
 /**TABLA**/
 
 
-.content table:not(.rf-tablegrid) td{
-    border: transparent;
+.cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
+    border: none;
+    padding: 7px;
 }
 
 table td, .bck-table td {
@@ -1747,6 +1748,7 @@ table td.bck-td-4 {
 	bottom:0 ;
 	background-color: transparent;
 	z-index: -1;
+
 }
 
 /* CKEDITOR */
