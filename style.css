@@ -1681,7 +1681,7 @@ strong {
 }
 
 .cke_contents table:not(.rf-tablegrid), .content table:not(.rf-tablegrid) {
-    border: transparent;
+    border: none;
 }
 
 table td, .bck-table td {
