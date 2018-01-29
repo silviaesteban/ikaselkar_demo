@@ -1,8 +1,8 @@
     /*General */
 body {
-	height: 100vh;
-	font-size:16px;
-	font-weight: 300;
+    height: 100vh;
+    font-size:16px;
+    font-weight: 300;
     font: 400 'Source Sans Pro',sans-serif;
     line-height: 21px;
     color: #414141;
@@ -1678,6 +1678,10 @@ strong {
 .cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
     border: none;
     padding: 7px;
+}
+
+.content table:not(.rf-tablegrid) {
+    border: transparent;
 }
 
 table td, .bck-table td {
