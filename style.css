@@ -740,7 +740,7 @@ body:not(.edit) .slider-indicators {
     margin-right: 10px;
     padding: 28px;
     background-size: contain;
-    background-image: url(../ikaselkar_demo/imagenes/Miatze_1.png);
+    background-image: url(../ikaselkar_demo/imagenes/Miatze_2.png);
     float: left;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1348,6 +1348,24 @@ body:not(.edit) .slider-indicators {
     display: inline-block;
     border-bottom: 0px;
 }
+
+.bck-title.bck-title-32 {
+    font-variant: all-petite-caps; 
+    background: rgba(154,193,230,1);
+    background: -moz-linear-gradient(left, rgba(154,193,230,1) 0%, rgba(32,120,227,1) 31%, rgba(139,186,240,1) 81%, rgba(139,186,240,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(154,193,230,1)), color-stop(31%, rgba(32,120,227,1)), color-stop(81%, rgba(139,186,240,1)), color-stop(100%, rgba(139,186,240,1)));
+    background: -webkit-linear-gradient(left, rgba(154,193,230,1) 0%, rgba(32,120,227,1) 31%, rgba(139,186,240,1) 81%, rgba(139,186,240,1) 100%);
+    background: -o-linear-gradient(left, rgba(154,193,230,1) 0%, rgba(32,120,227,1) 31%, rgba(139,186,240,1) 81%, rgba(139,186,240,1) 100%);
+    background: -ms-linear-gradient(left, rgba(154,193,230,1) 0%, rgba(32,120,227,1) 31%, rgba(139,186,240,1) 81%, rgba(139,186,240,1) 100%);
+    background: linear-gradient(to right, rgba(154,193,230,1) 0%, rgba(32,120,227,1) 31%, rgba(139,186,240,1) 81%, rgba(139,186,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ac1e6', endColorstr='#8bbaf0', GradientType=1 );
+    font-size: 3rem;
+    color: #eee;
+    padding: 4px;
+    padding-left: 150px;
+}
+
+
 
 /**/
 
