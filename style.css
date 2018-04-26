@@ -1364,6 +1364,7 @@ body:not(.edit) .slider-indicators {
     padding: 4px;
     padding-left: 12%;
     width: 50%;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.39);
 }
 
 .bck-title.bck-title-33 {
@@ -1372,6 +1373,8 @@ body:not(.edit) .slider-indicators {
     background: linear-gradient(to right, #f390bc 0%, #f05f94 100%);
     padding: 10px;
     color: white;
+    box-shadow: 12px 20px 19px -21px rgba(0, 0, 0, 0.44)
+    padding-left: 26px;
 }
 
 .bck-title.bck-title-34 {
@@ -1379,7 +1382,7 @@ body:not(.edit) .slider-indicators {
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
-    color:white;
+    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.14);
 }
 
 .bck-title.bck-title-34:before {
