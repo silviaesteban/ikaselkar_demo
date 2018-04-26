@@ -1121,6 +1121,211 @@ body:not(.edit) .slider-indicators {
     border-bottom: 0px;
 }
 
+.bck-title-21 {
+    font-size: 2.4rem;
+    color: #DE1576;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #DE1576;
+    margin-bottom: 36px;
+}
+
+.bck-title-21:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Miatze_3.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-22{
+    color: #71C169;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #71C169;
+    margin-bottom: 36px;
+}
+
+.bck-title-22:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Aplikazio_1.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-23 {
+    font-size: 2.4rem;
+    color: #DE1576;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #DE1576;
+    margin-bottom: 36px;
+}
+
+.bck-title-23:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Aplikazio_3.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-24{
+    color: #71C169;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #71C169;
+    margin-bottom: 36px;
+}
+
+.bck-title-24:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Egituratze_1.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-25 {
+    font-size: 2.4rem;
+    color: #DE1576;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #DE1576;
+    margin-bottom: 36px;
+}
+
+.bck-title-25:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Egituratze_3.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-26{
+    color: #71C169;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #71C169;
+    margin-bottom: 36px;
+}
+
+.bck-title-26:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/IntegrazioSinplea_1.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-27{
+    color: #71C169;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #71C169;
+    margin-bottom: 36px;
+}
+
+.bck-title-27:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/IntegrazioKonplexua_1.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-28 {
+    font-size: 2.4rem;
+    color: #DE1576;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #DE1576;
+    margin-bottom: 36px;
+}
+
+.bck-title-28:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/IntegrazioKonplexua_3.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-29 {
+    font-size: 2.4rem;
+    color: #4dacde;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #52addf;
+    margin-bottom: 36px;
+}
+
+
+.bck-title-29:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/IntegrazioKonplexua_2.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-30{
+    color: #71C169;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #71C169;
+    margin-bottom: 36px;
+}
+
+.bck-title-30:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Autorregulazio_1.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
 
 /**/
 
