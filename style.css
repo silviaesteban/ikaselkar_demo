@@ -1362,8 +1362,8 @@ body:not(.edit) .slider-indicators {
     font-size: 3rem;
     color: #eee;
     padding: 4px;
-    padding-left: 150px;
-    width: 520px;
+    padding-left: 12%;
+    width: 50%;
 }
 
 
