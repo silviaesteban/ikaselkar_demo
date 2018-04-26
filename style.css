@@ -1389,11 +1389,34 @@ body:not(.edit) .slider-indicators {
     width: 14px;
     content: ' A ';
     color: white;
-    font-weight: 600;
+    font-weight: 700;
     padding: 7px 18px;
     margin-right: 11px;
     background: linear-gradient(to right, rgba(183,207,88,1) 0%, rgba(151,184,84,1) 100%);
 }
+
+.bck-title-35:before {
+    content: '2';
+    display: block;
+    float: left;
+    margin: -7px;
+    padding: 7px 24px;
+    background: #b7cf58;
+    left: -34px;
+    border-radius: 5px;
+    box-shadow: inset -5px 0px 15px -6px rgba(0, 0, 0, 0.55);
+    font-weight: 700;
+}
+
+.bck-title.bck-title-35 {
+    background: #5690ea;
+    color: white;
+    text-align: center;
+    width: 600px;
+    padding: 7px;
+    border-radius: 7px;
+}
+
 
 /**/
 
