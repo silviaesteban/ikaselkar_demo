@@ -1039,6 +1039,88 @@ body:not(.edit) .slider-indicators {
     border-bottom: 0px;
 }
 
+.bck-title-17 {
+    font-size: 2.4rem;
+    color: #DE1576;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #DE1576;
+    margin-bottom: 36px;
+}
+
+.bck-title-17:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Planifikazio_3.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-18{
+    color: #71C169;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #71C169;
+    margin-bottom: 36px;
+}
+
+.bck-title-18:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Ulertze_1.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-19 {
+    font-size: 2.4rem;
+    color: #DE1576;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #DE1576;
+    margin-bottom: 36px;
+}
+
+.bck-title-19:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Ulertze_3.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-title-20{
+    color: #71C169;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #71C169;
+    margin-bottom: 36px;
+}
+
+.bck-title-20:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Miatze_1.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
 
 /**/
 
