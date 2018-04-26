@@ -1327,6 +1327,28 @@ body:not(.edit) .slider-indicators {
     border-bottom: 0px;
 }
 
+.bck-title-31 {
+    font-size: 2.4rem;
+    color: #4dacde;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #52addf;
+    margin-bottom: 36px;
+}
+
+
+.bck-title-31:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/DHF.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
 /**/
 
 
