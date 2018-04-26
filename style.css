@@ -1366,7 +1366,31 @@ body:not(.edit) .slider-indicators {
     width: 50%;
 }
 
+.bck-title.bck-title-33 {
+    width: fit-content;
+    border-radius: 0px 10px 10px 0px;
+    background: linear-gradient(to right, #f390bc 0%, #f05f94 100%);
+    padding: 10px;
+    color: white;
+}
 
+.bck-title.bck-title-34 {
+    background: linear-gradient(to right, rgba(183,207,88,1) 0%, rgba(151,184,84,1) 100%);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+}
+
+.bck-title.bck-title-34:before {
+    width: 14px;
+    content: ' A ';
+    color: white;
+    font-weight: 600;
+    padding: 7px 18px;
+    margin-right: 11px;
+    background: linear-gradient(to right, rgba(183,207,88,1) 0%, rgba(151,184,84,1) 100%);
+}
 
 /**/
 
