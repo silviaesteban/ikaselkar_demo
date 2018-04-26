@@ -976,6 +976,32 @@ body:not(.edit) .slider-indicators {
 }
 
 
+.bck-title-14 {
+    font-size: 2.4rem;
+    color: #DE1576;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #DE1576;
+    margin-bottom: 36px;
+}
+
+.bck-title-14:before {
+    content: ' '!important;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../ikaselkar_demo/imagenes/Arakatze_3.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+
+
+/**/
+
+
 .bck-enfasis, strong{
 color:black;
     font-weight: 600;
