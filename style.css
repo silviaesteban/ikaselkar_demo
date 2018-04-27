@@ -1830,7 +1830,7 @@ strong {
 }
 
 
-/**/
+/*caja 5*/
 
 .bck-box.bck-box-5.center {
     background-color: #fbfbfb;
@@ -1840,7 +1840,6 @@ strong {
 }
 
 .bck-box.bck-box-5.center:before {
-    /* content: ' '; */
     content: ' i ';
     padding: 11px;
     margin-left: -47px;
@@ -1854,6 +1853,33 @@ strong {
 }
 
 .bck-box-5 .bck-title {
+    margin-top: -20px;
+}
+
+
+/*caja 6*/
+
+.bck-box.bck-box-6.center {
+    background-color: #fbfbfb;
+    border: #AAD8F3 solid 6px;
+    border-radius: 10px;
+    padding: 19px;
+}
+
+.bck-box.bck-box-6.center:before {
+    content: ' i ';
+    padding: 11px;
+    margin-left: -47px;
+    padding-top: 7px;
+    color: white;
+    background: #AAD8F3;
+    border-radius: 12px 0px 0px 12px;
+    width: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bck-box-6 .bck-title {
     margin-top: -20px;
 }
 
