@@ -1812,6 +1812,7 @@ strong {
     background-color: #fbfbfb;
     padding: 15px;
     border-radius: 22px;
+    box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.34);
 }
 
 
