@@ -1802,16 +1802,15 @@ strong {
 .bck-box-3.center {
     display: block;
     background-color: #eee;
-    border-radius: 20px;
-    border-left: 16px solid #ffcf29;
-    border-bottom-right-radius: 20px;
+    border-radius: 0px;
+    border-left: 21px solid #ff8f29;
     text-align: left;
-    padding: 5px;
+    padding: 11px 13px;
+    font-family: initial;
 }
 
-
 .bck-box-4.center {
-    background-color: #f9cadf;
+    background-color: #fbfbfb;
     padding: 15px;
     border-radius: 22px;
 }
