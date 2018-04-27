@@ -1502,6 +1502,7 @@ strong {
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
+    padding-left: 4px;
 }
 
 /*LISTA ORDENADA 1*/
