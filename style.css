@@ -1753,11 +1753,23 @@ strong {
 
 .bck-box.bck-box-2 {
     background: #B9C2E1;
-    border: 0px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
+    border-left: 54px solid #8091c8;
+    border-radius: 8px;
     text-align: left;
+}
+
+.bck-box.bck-box-2:before {
+    background-image: none;
+    font-family: 'FontAwesome';
+    content: "\f069";
+    color: #B9C2E1;
+    padding: 0px;
+    font-size: 27px;
+    margin-right: 10px;
+    margin-left: -38px;
+    float: left;
+    top: 40%;
+    position: absolute;
 }
 
 .bck-box.bck-box-2 .bck-content {
@@ -1779,14 +1791,6 @@ strong {
 	width: auto;
 }
 
-.bck-box.bck-box-2 .bck-title:before {
-	background-image: none;
-	font-family: 'FontAwesome';
-	content: "\f069";
-	margin: 0 5px 0 0px;
-	color: #B9C2E1;
-	margin-right: 10px;
-}
 
 #actividad .content .bck-box.bck-box-2 .header.bck-title .title {
 	display: inline-block;
