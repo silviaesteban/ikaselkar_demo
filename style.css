@@ -1698,7 +1698,7 @@ strong {
 .bck-box.center {
 	display: block;
 	background-color: #AAD8F3;
-    border-radius:5px
+    border-radius:5px;
     text-align: left;
     padding: 5px;
 
