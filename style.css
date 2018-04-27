@@ -1816,11 +1816,15 @@ strong {
 
 
 .bck-box-4.center .bck-title {
-    font-size: 2.4rem;
-    color: #df1b7a;
+    font-size: 2rem;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    background-color: #df1b7a;
     font-weight: 600;
+    text-align: center;
+    padding: 7px 0px 0px;
+    margin: -15px -15px 10px;
 }
-
 
 /*caja 5*/
 
