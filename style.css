@@ -1907,20 +1907,19 @@ strong {
 
 .bck-box.bck-box-9.center {
     position: relative;
-    background: #fff url(../../../images/libro/actividad-bg2.png) repeat-x;
-    padding: 23px 17px 36px 50px;
-    background-color: #fbfbfb;
-    border: #d0f530 solid 4px;
-}
-
-.bck-box.bck-box-10.center {
-    position: relative;
-    background: #fff url(../../../images/libro/actividad-bg2.png) repeat-x;
-    padding: 23px 17px 36px 50px;
+    background: #fff url(../ikaselkar_demo/imagenes/actividad-bg2.png) repeat-x;
+    padding: 45px 17px 36px 34px;
     background-color: #fbfbfb;
     border: #f5a430 solid 4px;
 }
 
+.bck-box.bck-box-10.center {
+    position: relative;
+    background: #fff url(../ikaselkar_demo/imagenes/actividad-bg2.png) repeat-x;
+    padding: 45px 17px 36px 34px;
+    background-color: #fbfbfb;
+    border: #f5a430 solid 4px;
+}
 
 
 /*ENLACES*/
