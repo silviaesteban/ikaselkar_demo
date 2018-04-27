@@ -1409,7 +1409,7 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-title.bck-title-35 {
-    background: #5690ea;
+    background: #0095DA;
     color: white;
     text-align: center;
     width: 600px;
@@ -1861,7 +1861,7 @@ strong {
 
 .bck-box.bck-box-6.center {
     background-color: #fbfbfb;
-    border: #5690ea solid 6px;
+    border: #0095DA solid 6px;
     border-radius: 10px;
     padding: 19px;
 }
@@ -1872,7 +1872,7 @@ strong {
     margin-left: -47px;
     padding-top: 7px;
     color: white;
-    background: #5690ea;
+    background: #0095DA;
     border-radius: 12px 0px 0px 12px;
     width: 10px;
     font-size: 2rem;
@@ -1880,7 +1880,20 @@ strong {
 }
 
 .bck-box-6 .bck-title {
-    margin-top: -20px;
+    text-align: center;
+    margin: -47px -19px 11px;
+    padding: 19px;
+    background: linear-gradient(to bottom, rgba(0,149,218,1) 0%, rgba(24,175,240,1) 100%);
+    color: white;
+}
+
+
+.bck-box.bck-box-7.center {
+    position: relative;
+    background: #fff url(../../../images/libro/actividad-bg.png) repeat-y;
+    padding: 1px 17px 30px 60px;
+    background-color: #fbfbfb;
+    border: #d0f530 solid 4px;
 }
 
 
