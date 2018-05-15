@@ -1,7 +1,7 @@
     /*General */
 body {
     height: 100vh;
-    font-size:16px;
+    font-size:16px; 
     font-weight: 300;
     font: 400 'Source Sans Pro',sans-serif;
     line-height: 21px;
@@ -1447,7 +1447,9 @@ strong {
 
 #actividad .content ul.bck-ul li {
 	position: relative;
+	list-style: none;
 }
+
 
 
 #actividad .popover-background.shown .popover-content > ul > li:before{
@@ -1458,6 +1460,19 @@ strong {
 .content ol li:before, .cke_contents ol li:before{
     margin-left:0px;
 }
+
+#actividad .content .texto_curso ul li:before,
+#actividad .content .workspace ul li ul li:before,
+#actividad .content .texto_curso .bck-ul li:before,
+#actividad .content .workspace ul li .bck-ul li:before ,
+#actividad .popover-background.shown .popover-content > ul > li:before{
+    background-color: #444;
+    height: 6px;
+    width: 6px;
+    margin-top: 5px;
+    margin-left: -18px;
+}
+
 
 
 #actividad .content .texto_curso .bck-ol li,
