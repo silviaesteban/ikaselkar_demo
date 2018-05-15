@@ -1447,22 +1447,7 @@ strong {
 
 #actividad .content ul.bck-ul li {
 	position: relative;
-	list-style: none;
 }
-
-.texto_curso ul li:before,
-.workspace ul li ul li:before,
-.cke_contents ul li:before, .preview ul li:before,
-.classify-item ul li:before,
-#actividad .workspace.multiple-choice .js-item ul li:before,
-#actividad .workspace.matching .box ul li:before,
-#actividad .workspace.ordenar .js-rank-item ul li:before {
-    background-color: #AC218F;
-    -webkit-border-radius: 0%;
-       -moz-border-radius: 0%;
-            border-radius: 0%;
-}
-
 
 
 #actividad .popover-background.shown .popover-content > ul > li:before{
