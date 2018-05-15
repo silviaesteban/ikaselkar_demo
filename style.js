@@ -14,35 +14,48 @@
 			name: 'ikaselkar_demo',
 			styles: [
 				{ name: 'Kokatze-h', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
-				{ name: 'Arakatze-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
-				{ name: 'Miatze-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
-				{ name: 'Ulertze-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
-				{ name: 'Aplikazio-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-5'} },
-				{ name: 'Autorregulazio-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-6'} },
-				{ name: 'Isinplea-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-7'} },
-				{ name: 'Egituratze-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-8'} },
-				{ name: 'Isinplea-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-9'} },
-				{ name: 'Autorregulazio-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-10'} },
-                                { name: 'Kokatze-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-11'} },
 				{ name: 'Kokatze-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-12'} },
+				{ name: 'Kokatze-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-11'} },
+				
+				{ name: 'Arakatze-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
 				{ name: 'Arakatze-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-13'} },
 				{ name: 'Arakatze-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-14'} },
-				{ name: 'Planifikazio-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-15'} },
+				
 				{ name: 'Planifikazio-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-16'} },
+				{ name: 'Planifikazio-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-15'} },
 				{ name: 'Planifikazio-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-17'} },
+				
 				{ name: 'Ulertze-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-18'} },
+				{ name: 'Ulertze-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
 				{ name: 'Ulertze-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-19'} },
+				
 				{ name: 'Miatze-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-20'} },
+				{ name: 'Miatze-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
                                 { name: 'Miatze-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-21'} },
+				
 				{ name: 'Aplikazio-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-22'} },
+				{ name: 'Aplikazio-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-5'} },
 				{ name: 'Aplikazio-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-23'} },
+				
 				{ name: 'Egituratze-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-24'} },
+				{ name: 'Egituratze-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-8'} },
 				{ name: 'Egituratze-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-25'} },
+				
 				{ name: 'Isinplea-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-26'} },
+				{ name: 'Isinplea-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-7'} },
+				{ name: 'Isinplea-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-9'} },
+				
 				{ name: 'Ikonplexua-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-27'} },
-				{ name: 'Ikonplexua-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-28'} },
 				{ name: 'Ikonplexua-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-29'} },
+				{ name: 'Ikonplexua-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-28'} },
+				
 				{ name: 'Autorregulazio-h', element: 'h3', attributes: { 'class': 'bck-title bck-title-30'} },
+				{ name: 'Autorregulazio-g', element: 'h3', attributes: { 'class': 'bck-title bck-title-6'} },
+				{ name: 'Autorregulazio-a', element: 'h3', attributes: { 'class': 'bck-title bck-title-10'} },
+				
+				
+				
+				
                                 { name: 'Título 31', element: 'h3', attributes: { 'class': 'bck-title bck-title-31'} },
                                 { name: 'Sekuentzia-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-32'} },
                                 { name: 'Zerengia-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-33'} },
