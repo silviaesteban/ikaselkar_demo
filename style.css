@@ -1749,8 +1749,8 @@ strong {
 /*CAJA2*/
 
 .bck-box.bck-box-2 {
-    background: #B9C2E1;
-    border-left: 54px solid #8091c8;
+    background: #8C9ACE;
+    border-left: 54px solid #807FB5;
     border-radius: 8px;
     text-align: left;
 }
@@ -1759,7 +1759,7 @@ strong {
     background-image: none;
     font-family: 'FontAwesome';
     content: "\f069";
-    color: #807FB5;
+    color: #8C9ACE;
     padding: 0px;
     font-size: 27px;
     margin-right: 10px;
