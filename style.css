@@ -1469,6 +1469,18 @@ strong {
     border: none;
 }
 
+
+.texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
+    background-color: #444;
+    height: 4px;
+    width: 4px;
+    margin-top: 9px;
+    margin-left: -18px;
+    border: none;
+}
+
+
+
 /*LISTAS ORDENADAS*/
 .content ol li:before, .cke_contents ol li:before{
     margin-left:0px;
