@@ -1436,7 +1436,7 @@ strong {
 #actividad .texto_curso li,
 #actividad .workspace ul li li {
 	position: relative;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	margin-left: 16px;
 }
 
