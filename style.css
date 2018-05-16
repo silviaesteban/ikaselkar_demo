@@ -1479,6 +1479,10 @@ strong {
     border: none;
 }
 
+.texto_curso ul li, .workspace ul li ul li, .cke_contents ul li {
+    margin-bottom: 0px;
+}
+
 
 
 /*LISTAS ORDENADAS*/
