@@ -1749,7 +1749,8 @@ strong {
 /*CAJA2*/
 
 .bck-box.bck-box-2 {
-   background: #8C9ACE;
+    color#fff;
+    background: #8C9ACE;
     border-left: 54px solid #807FB5;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
