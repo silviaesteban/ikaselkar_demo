@@ -1764,8 +1764,8 @@ strong {
     padding: 5px 70px 5px 70px;
     border-radius: 10px;
     box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.14);
-    color: #fff;
     margin-left: 0px;
+    color:#fff;
 }
 
 #actividad .content .texto_curso ol.bck-ol-8 li:before, #actividad .popover-content ol.bck-ol-8 li:before, #actividad .content .workspace ul li ol.bck-ol-8 li:before {
@@ -1781,6 +1781,7 @@ strong {
     top:0px;
     left: 30px;
 }
+
 
 
 /*BOXES*/
