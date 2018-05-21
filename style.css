@@ -1542,7 +1542,8 @@ strong {
 /*LISTA ORDENADA 1*/ 
 
 #actividad .content .texto_curso .bck-ol-1 li:before,
-.content .cke_contents .bck-ol-1 li:before,
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .cke_editable .bck-ol-1 li:before,
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
     width: 22px;
