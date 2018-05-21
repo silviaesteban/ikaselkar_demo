@@ -1528,6 +1528,10 @@ strong {
     font-weight: 600;
 }
 
+.edit .content ol li:before, .edit .cke_contents ol li:before {
+    margin-left: 0px;
+}
+
 /*LISTA ORDENADA 1*/ 
 
 #actividad .content .texto_curso .bck-ol-1 li:before,
