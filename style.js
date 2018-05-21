@@ -55,7 +55,7 @@
 				
                                 { name: 'Título 31', element: 'h3', attributes: { 'class': 'bck-title bck-title-31'} },
                                 { name: 'Sekuentzia-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-32'} },
-                                { name: 'Zerengia-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-33'} },
+                                { name: 'Zeregina-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-33'} },
                                 { name: 'Azpizeregina-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-34'} },
                                 { name: 'Ikerketa-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-35'} },
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
@@ -67,6 +67,7 @@
 				{ name: 'Lista Ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
 				{ name: 'Lista Ordenada 5', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-5' } },
 				{ name: 'Lista Ordenada 6', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-6' } },
+				{ name: 'Lista Ordenada 7', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-7' } },
 				{ name: 'Koloredun-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Azalpen-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
 				{ name: 'Oharra-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
