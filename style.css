@@ -1555,9 +1555,9 @@ strong {
     margin-left: -30px;
 }
 
-.edit #actividad  .content .texto_curso .bck-ol-1 li:before,
-.edit #actividad  .popover-content .bck-ol-1 li:before,
-.edit #actividad  .content .workspace ul li .bck-ol-1 li:before {
+.edit .content .texto_curso .bck-ol-1 li:before,
+.edit .popover-content .bck-ol-1 li:before,
+.edit .content .workspace ul li .bck-ol-1 li:before {
     width: 22px;
     border-radius: 4px;
     position: absolute;
@@ -1912,10 +1912,11 @@ strong {
     font-family: initial;
 }
 
-.bcbackground-color: #F6F6F6;
+.bck-box-4.center {
+    background-color: #F6F6F6;
     padding: 15px;
     border-radius: 22px;
-    box-shadow: 0px 2px 20px 7px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 2px 15px 8px rgba(0, 0, 0, 0.34);
 }
 
 
