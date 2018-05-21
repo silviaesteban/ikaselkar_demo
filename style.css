@@ -1735,7 +1735,7 @@ strong {
     width: fit-content;
     padding: 5px 70px 5px 70px;
     border-radius: 10px;
-    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 5px 5px 15px #888888;
     margin-left: -20px;
 }
 
@@ -1774,7 +1774,7 @@ strong {
     width: fit-content;
     padding: 5px 70px 5px 70px;
     border-radius: 10px;
-    box-shadow: 5px 10px 27px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 5px 5px 15px #888888;
     margin-left: -20px;
     color:#fff;
 }
