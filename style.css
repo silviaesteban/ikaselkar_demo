@@ -1681,12 +1681,12 @@ strong {
 
 /*lista ordenada 7*/ /*Azpizeregina-titulua*/
 
-#actividad .content .texto_curso .bck-ol-6, #actividad .content .workspace ul li .bck-ol-7 {
+#actividad .content .texto_curso .bck-ol-7, #actividad .content .workspace ul li .bck-ol-7 {
     list-style-type: none;
     counter-reset: bck-li-counter;
 }
 
-#actividad .content .texto_curso .bck-ol-6 li, #actividad .popover-content .bck-ol-7 li, #actividad .content .workspace ul li .bck-ol-7 li {
+#actividad .content .texto_curso .bck-ol-7 li, #actividad .popover-content .bck-ol-7 li, #actividad .content .workspace ul li .bck-ol-7 li {
     counter-increment: bck-li-counter;
     padding-left: 20px;
     position: relative;
