@@ -1929,6 +1929,9 @@ strong {
     text-align: center;
     padding: 7px 0px 0px;
     margin: -15px -15px 10px;
+    background: -moz-linear-gradient(left, #d64d91 0%, #a33386 100%);
+    background: -webkit-linear-gradient(left, #d64d91 0%,#a33386 100%);
+    background: linear-gradient(to right, #d64d91 0%,#a33386 100%);
 }
 
 /*caja 5*/
