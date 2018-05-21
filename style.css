@@ -1766,16 +1766,17 @@ strong {
 }
 
 #actividad .content .texto_curso ol.bck-ol-8 li:before, #actividad .popover-content ol.bck-ol-8 li:before, #actividad .content .workspace ul li ol.bck-ol-8 li:before {
-    content: counter(bck-li-counter)"";
-    color: white;
-    font-weight: 700;
-    padding: 5px 20px;
-    margin-right: 11px;
-    background: linear-gradient(to right, rgba(183,207,88,1) 0%, rgba(151,184,84,1) 100%);
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    counter-increment: bck-li-counter;
+    position: relative;
+    z-index: 0;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
     font-size: 2.4rem;
-    top:0px;
+    font-weight: 400;
+    width: fit-content;
+    padding: 5px 70px 5px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.42);
+    color: #fff;
 }
 
 
