@@ -1555,9 +1555,9 @@ strong {
     margin-left: -30px;
 }
 
-#actividad .edit .content .texto_curso .bck-ol-1 li:before,
-#actividad .edit .popover-content .bck-ol-1 li:before,
-#actividad .edit .content .workspace ul li .bck-ol-1 li:before {
+.edit .content .texto_curso .bck-ol-1 li:before,
+.edit .popover-content .bck-ol-1 li:before,
+.edit .content .workspace ul li .bck-ol-1 li:before {
     width: 22px;
     border-radius: 4px;
     position: absolute;
