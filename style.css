@@ -1955,8 +1955,8 @@ strong {
 }
 
 .bck-box-6 .bck-title {
-    text-align: center;
-    margin: -47px -19px 11px;
+     text-align: center;
+    margin: -20px -19px 11px;
     padding: 19px;
     background: linear-gradient(to bottom, rgba(0,149,218,1) 0%, rgba(24,175,240,1) 100%);
     color: white;
@@ -2792,3 +2792,5 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
+
+
