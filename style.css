@@ -1956,16 +1956,15 @@ strong {
 }
 
 .bck-box.bck-box-5.center:before {
-    content: '  ';
-    padding: 11px;
-    margin-left: -47px;
-    padding-top: 7px;
-    color: white;
-    border-radius: 12px 0px 0px 12px;
-    width: 10px;
-    font-size: 2rem;
-    font-weight: 700;
-    background-image: url(../ikaselkar_demo/imagenes/info-g.fw.png);
+    background-image: url(../ikaselkar_demo/imagenes/info-h.fw.png);
+    content: " ";
+    position: absolute;
+    left: -43px;
+    z-index: 100;
+    padding: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
 }
 
 .bck-box-5 .bck-title {
@@ -1983,17 +1982,15 @@ strong {
 }
 
 .bck-box.bck-box-6.center:before {
-    content: ' i ';
-    padding: 11px;
-    margin-left: -47px;
-    padding-top: 7px;
-    color: white;
-    background: #0095DA;
-    border-radius: 12px 0px 0px 12px;
-    width: 10px;
-    font-size: 2rem;
-    font-weight: 700;
-     background-image: url(../ikaselkar_demo/imagenes/info-h.fw.png);
+     background-image: url(../ikaselkar_demo/imagenes/info-g.fw.png);
+    content: " ";
+    position: absolute;
+    left: -43px;
+    z-index: 100;
+    padding: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
 }
 
 .bck-box-6 .bck-title {
