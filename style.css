@@ -1914,6 +1914,7 @@ strong {
     border: #27c127 solid 3px;
     border-radius: 10px;
     padding: 19px;
+    box-shadow: -5px -5px 15px #27c12769;
 }
 
 .bck-box.bck-box-5.center:before {
@@ -1940,6 +1941,7 @@ strong {
     border: #0095DA solid 3px;
     border-radius: 10px;
     padding: 19px;
+    box-shadow: -5px -5px 15px #0095da85;
 }
 
 .bck-box.bck-box-6.center:before {
