@@ -1950,7 +1950,7 @@ strong {
 
 .bck-box.bck-box-5.center {
     background-color: #fbfbfb;
-    border: #27c127 solid 6px;
+    border: #27c127 solid 3px;
     border-radius: 10px;
     padding: 19px;
 }
@@ -1959,7 +1959,7 @@ strong {
     background-image: url(../ikaselkar_demo/imagenes/info-h.fw.png);
     content: " ";
     position: absolute;
-    left: -43px;
+    left: -39px;
     z-index: 100;
     padding: 70px;
     background-repeat: no-repeat;
@@ -1976,7 +1976,7 @@ strong {
 
 .bck-box.bck-box-6.center {
     background-color: #fbfbfb;
-    border: #0095DA solid 6px;
+    border: #0095DA solid 3px;
     border-radius: 10px;
     padding: 19px;
 }
@@ -1985,7 +1985,7 @@ strong {
      background-image: url(../ikaselkar_demo/imagenes/info-g.fw.png);
     content: " ";
     position: absolute;
-    left: -43px;
+    left: -39px;
     z-index: 100;
     padding: 70px;
     background-repeat: no-repeat;
