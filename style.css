@@ -1883,6 +1883,7 @@ strong {
     text-align: left;
     padding: 11px 13px;
     font-family: initial;
+    box-shadow: 10px 10px 15px #888888;
 }
 
 .bck-box-4.center {
