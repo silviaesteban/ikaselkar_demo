@@ -2001,28 +2001,44 @@ strong {
 
 
 .bck-box.bck-box-11.center {
-    left: 3%;
-    width: 94%;
-    background-color: #0095da;
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #0fb4bc 0%, #008885 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
 }
 
 .bck-box-11 .bck-title {
-    color: white;
-    margin-left: -69px;
-    margin-top: 47px;
-    background-color: #b7cf58;
-    padding: 10px;
-    border-radius: 10px;
-    width: fit-content;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .bck-box-11 .bck-content {
-    background-color: white;
-    margin-top: -50px;
-    margin-left: 13px;
+    background: #fff;
     border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
+.bck-box.bck-box-11.center:before{
+    content: "1";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
 
 /*ENLACES*/
 
