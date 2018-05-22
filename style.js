@@ -56,8 +56,6 @@
                                 { name: 'Título 31', element: 'h3', attributes: { 'class': 'bck-title bck-title-31'} },
                                 { name: 'Sekuentzia-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-32'} },
                                 { name: 'Zeregina-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-33'} },
-                                { name: 'Azpizeregina-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-34'} },
-                                { name: 'Ikerketa-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-35'} },
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 				
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
