@@ -2088,7 +2088,7 @@ strong {
 }
 
 .bck-box.bck-box-12.center:before{
-    content: "1";
+    content: "2";
     align-content: center;
     justify-content: center;
     position: absolute;
@@ -2130,7 +2130,7 @@ strong {
 }
 
 .bck-box.bck-box-13.center:before{
-    content: "1";
+    content: "3";
     align-content: center;
     justify-content: center;
     position: absolute;
