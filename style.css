@@ -1847,6 +1847,11 @@ strong {
     background-position: right;
 }
 
+.bck-box.bck-box-2:title {
+   padding-top: 20px;
+   padding-left: 25px;
+}
+
 .bck-box.bck-box-2:before {
     background-image: none;
     font-family: 'FontAwesome';
