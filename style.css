@@ -1803,6 +1803,14 @@ strong {
     padding-right: 15px;
 }
 
+.bck-box .bck-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 /*CAJA1*/
 
 .bck-box.bck-box-1 {
@@ -1974,9 +1982,9 @@ strong {
 
 .bck-box.bck-box-7.center {
     position: relative;
-    background: url(../ikaselkar_demo/imagenes/04kuadernoa23052018.png) repeat-x;
+    background: url(../ikaselkar_demo/imagenes/04kuadernoa23052018.png) repeat-y;
     padding: 23px 17px 36px 80px;
-    background-size: cover;
+    background-size: contain;
 }
 
 .bck-box.bck-box-8.center {
@@ -1989,19 +1997,22 @@ strong {
 
 .bck-box.bck-box-9.center {
     position: relative;
-    background: url(../ikaselkar_demo/imagenes/05kuadernoa23052018.png) repeat-x;
+    background-image: url(../ikaselkar_demo/imagenes/06kuadernoa23052018.png);
     padding: 100px 25px 36px 25px;
-    background-size: cover;
+    background-size: 95%;
+    background-color: #f7f7f5;
+    background-repeat-y: no-repeat;
+    background-repeat-x: repeat;
 }
 
 .bck-box.bck-box-10.center {
     position: relative;
     background: url(../ikaselkar_demo/imagenes/kuadernoa2305201805.png) repeat-y;
-    padding: 45px 17px 36px 34px;
+    padding: 56px 17px 36px 34px;
     background-size: cover;
 }
 
-
+/*caja IKERGAIA 1*/
 .bck-box.bck-box-11.center {
     border-left: 46px solid #B3C930;
     display: block;
@@ -2009,7 +2020,7 @@ strong {
     text-align: left;
     padding: 5px;
     border-radius: 10px 10px 10px 10px;
-    background: linear-gradient(to right, #0fb4bc 0%, #008885 100%);
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
     padding: 10px;
     box-shadow: 5px 5px 15px #888888;
 }
@@ -2030,6 +2041,90 @@ strong {
 }
 
 .bck-box.bck-box-11.center:before{
+    content: "1";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+/*caja IKERGAIA 2*/
+.bck-box.bck-box-12.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-12 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box-12 .bck-content {
+    padding: 10px 0px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box.bck-box-12.center:before{
+    content: "1";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+ 
+/*caja IKERGAIA 3*/
+.bck-box.bck-box-13.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-13 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box-13 .bck-content {
+    padding: 10px 0px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box.bck-box-13.center:before{
     content: "1";
     align-content: center;
     justify-content: center;
