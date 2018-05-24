@@ -1764,13 +1764,12 @@ strong {
     max-width: 100%;
     margin-bottom: 10px;
     text-align: left;
-    background: #F3F4E2;
+    background: #fff;
 }
 
 .bck-box.center {
     display: block;
-    background-color: #AAD8F3;
-    border-radius:5px;
+    background-color: #fff;
     text-align: left;
     padding: 5px;
 
@@ -1807,8 +1806,13 @@ strong {
 /*CAJA1*/
 
 .bck-box.bck-box-1 {
-    min-height: 80px;
-    margin-top: 15px;
+   min-height: 80px;
+   margin-top: 15px;
+   display: block; 
+   background-color: #AAD8F3;
+   border-radius: 5px; 
+   text-align: left; 
+   padding: 5px; 
 }
 
 .bck-box-1 .bck-title {
