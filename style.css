@@ -1988,7 +1988,7 @@ strong {
     position: relative;
     background: url(../ikaselkar_demo/imagenes/04kuadernoa23052018.png) repeat-y;
     padding: 23px 17px 36px 80px;
-    background-size: contain;
+    background-size: cover;
 }
 
 .bck-box.bck-box-8.center {
