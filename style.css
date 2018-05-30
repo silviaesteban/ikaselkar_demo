@@ -1937,7 +1937,7 @@ strong {
     border: #27c127 solid 3px;
     border-radius: 10px;
     padding: 19px;
-    box-shadow: 10px 10px 5px #27c12769;
+   
     min-height: 175px;
 }
 
@@ -1945,7 +1945,7 @@ strong {
     background-image: url(../ikaselkar_demo/imagenes/info-h.fw.png);
     content: " ";
     position: absolute;
-    left: -39px;
+    left: -42px;
     z-index: 100;
     padding: 70px;
     background-repeat: no-repeat;
@@ -1965,7 +1965,6 @@ strong {
     border: #0095DA solid 3px;
     border-radius: 10px;
     padding: 19px;
-    box-shadow: 10px 10px 5px #C8E8F8;
     min-height: 175px;
 }
 
@@ -1973,7 +1972,7 @@ strong {
      background-image: url(../ikaselkar_demo/imagenes/info-g.fw.png);
     content: " ";
     position: absolute;
-    left: -39px;
+    left: -42px;
     z-index: 100;
     padding: 70px;
     background-repeat: no-repeat;
