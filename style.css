@@ -2149,6 +2149,22 @@ strong {
     background-size: cover;
 }
 
+.bck-box.bck-box-14.center .bck-title{
+    box-shadow: 5px 5px 15px #888888;
+    font-weight: 600;
+    padding: 0px 10px 0px 20px;
+    color: #fff;
+    font-size: 3.8rem;
+    background: #249bb4;
+    background: -moz-linear-gradient(left, #249bb4 0%, #81b69a 100%);
+    background: -webkit-linear-gradient(left, #249bb4 0%,#81b69a 100%);
+    background: linear-gradient(to right, #249bb4 0%,#81b69a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#249bb4', endColorstr='#81b69a',GradientType=1 );
+    position: absolute;
+    top: 25%;
+    left: 0px;
+  }
+
 /*ENLACES*/
 
 /**Títulos**/
