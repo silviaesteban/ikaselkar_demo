@@ -2142,6 +2142,52 @@ strong {
     font-family: 'Gloria Hallelujah', cursive;
 }
 
+.bck-box-20 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box.bck-box-20.center:before{
+    content: "4";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box-21 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box.bck-box-21.center:before{
+    content: "5";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+
 .bck-box.bck-box-14.center {
     position: relative;
     background: url(../ikaselkar_demo/imagenes/RR11816181_1.png) repeat-y;
@@ -2164,6 +2210,116 @@ strong {
     top: 25%;
     left: 0px;
   }
+
+.bck-box-15 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box.bck-box-15.center:before{
+    content: "A";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box-16 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box.bck-box-16.center:before{
+    content: "B";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box-17 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box.bck-box-17.center:before{
+    content: "C";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box-18 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box.bck-box-18.center:before{
+    content: "D";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box-19 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bck-box.bck-box-19.center:before{
+    content: "E";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+}
 
 /*ENLACES*/
 
