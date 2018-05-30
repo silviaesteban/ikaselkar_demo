@@ -81,6 +81,7 @@
                 		{ name: 'Ikerketa-kaxa 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
 				{ name: 'Ikerketa-kaxa 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-12' } },
 				{ name: 'Ikerketa-kaxa 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-13' } },
+				{ name: '14', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
 				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
 				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td bck-td-1'} },
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td bck-td-2'} },
