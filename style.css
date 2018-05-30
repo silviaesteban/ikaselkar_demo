@@ -2118,7 +2118,6 @@ strong {
     text-align: center;
     font-size: 18px;
     color: #FFFFFF;
-    
 }
 
 .bck-box-13 .bck-content {
@@ -2126,7 +2125,6 @@ strong {
     background: #fff;
     border-radius: 0px 0px 10px 10px;
     text-align: center;
-    
 }
 
 .bck-box.bck-box-13.center:before{
@@ -2140,15 +2138,31 @@ strong {
     font-weight: bold;
     font-size: 36px;
     color: #FFFFFF;
-   
 }
 
+
+.bck-box.bck-box-20.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-20 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
 .bck-box-20 .bck-content {
     padding: 10px;
     background: #fff;
     border-radius: 0px 0px 10px 10px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .bck-box.bck-box-20.center:before{
@@ -2162,7 +2176,24 @@ strong {
     font-weight: bold;
     font-size: 36px;
     color: #FFFFFF;
-    
+}
+
+.bck-box.bck-box-21.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-21 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
 }
 
 .bck-box-21 .bck-content {
@@ -2187,8 +2218,199 @@ strong {
     
 }
 
+.bck-box.bck-box-15.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
 
+.bck-box-15 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
 
+.bck-box.bck-box-15.center:before{
+    content: "A";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    
+}
+
+.bck-box.bck-box-16.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-16 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.bck-box-16 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+   
+}
+
+.bck-box.bck-box-16.center:before{
+    content: "B";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+   
+}
+
+.bck-box.bck-box-17.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-17 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.bck-box-17 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+   
+}
+
+.bck-box.bck-box-17.center:before{
+    content: "C";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    
+}
+
+.bck-box.bck-box-18.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-18 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.bck-box-18 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    
+}
+
+.bck-box.bck-box-18.center:before{
+    content: "D";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    
+}
+
+.bck-box.bck-box-19.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-19 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.bck-box-19 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+   
+}
+
+.bck-box.bck-box-19.center:before{
+    content: "E";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+   
+}
+
+/*por definir el nombre*/
 .bck-box.bck-box-14.center {
     position: relative;
     background: url(../ikaselkar_demo/imagenes/RR11816181_1.png) repeat-y;
@@ -2218,108 +2440,6 @@ strong {
     border-radius: 0px 0px 10px 10px;
     text-align: center;
   
-}
-
-.bck-box.bck-box-15.center:before{
-    content: "A";
-    align-content: center;
-    justify-content: center;
-    position: absolute;
-    top: 35%;
-    left: -32px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 36px;
-    color: #FFFFFF;
-    
-}
-
-.bck-box-16 .bck-content {
-    padding: 10px;
-    background: #fff;
-    border-radius: 0px 0px 10px 10px;
-    text-align: center;
-   
-}
-
-.bck-box.bck-box-16.center:before{
-    content: "B";
-    align-content: center;
-    justify-content: center;
-    position: absolute;
-    top: 35%;
-    left: -32px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 36px;
-    color: #FFFFFF;
-   
-}
-
-.bck-box-17 .bck-content {
-    padding: 10px;
-    background: #fff;
-    border-radius: 0px 0px 10px 10px;
-    text-align: center;
-   
-}
-
-.bck-box.bck-box-17.center:before{
-    content: "C";
-    align-content: center;
-    justify-content: center;
-    position: absolute;
-    top: 35%;
-    left: -32px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 36px;
-    color: #FFFFFF;
-    
-}
-
-.bck-box-18 .bck-content {
-    padding: 10px;
-    background: #fff;
-    border-radius: 0px 0px 10px 10px;
-    text-align: center;
-    
-}
-
-.bck-box.bck-box-18.center:before{
-    content: "D";
-    align-content: center;
-    justify-content: center;
-    position: absolute;
-    top: 35%;
-    left: -32px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 36px;
-    color: #FFFFFF;
-    
-}
-
-.bck-box-19 .bck-content {
-    padding: 10px;
-    background: #fff;
-    border-radius: 0px 0px 10px 10px;
-    text-align: center;
-   
-}
-
-.bck-box.bck-box-19.center:before{
-    content: "E";
-    align-content: center;
-    justify-content: center;
-    position: absolute;
-    top: 35%;
-    left: -32px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 36px;
-    color: #FFFFFF;
-   
 }
 
 /*ENLACES*/
