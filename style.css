@@ -1361,17 +1361,24 @@ body:not(.edit) .slider-indicators {
     color: #eee;
     padding: 4px;
     padding-left: 12%;
-    width: 50%;
+    width: fit-content;
     box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.39);
 }
 
-.bck-title.bck-title-33 {
+bck-title.bck-title-33 strong {
+    color: #fff;
     width: fit-content;
     border-radius: 0px 30px 30px 0px;
     background: linear-gradient(to right, #EF94BA 0%, #E75087 100%);
     padding: 10px 20px 10px 10px;
     color: white;
     font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.bck-title.bck-title-33 {
+    color: #EF94BA;
+    padding: 15px 0px 15px 0px;
 }
 
 
