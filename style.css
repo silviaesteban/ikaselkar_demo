@@ -2142,6 +2142,13 @@ strong {
     font-family: 'Gloria Hallelujah', cursive;
 }
 
+.bck-box.bck-box-14.center {
+    position: relative;
+    background: url(../ikaselkar_demo/imagenes/RR11816181_1.png) repeat-y;
+    padding: 23px 17px 36px 80px;
+    background-size: cover;
+}
+
 /*ENLACES*/
 
 /**Títulos**/
