@@ -2795,17 +2795,17 @@ strong {
 
 
 .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
-    border: 1px;
+    border:1px solid #eee;
     padding: 7px;
 }
 
 .cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th{
-    border:1px solid #eee
+    border:1px solid #eee;
     padding: 7px;
 }
 
 .cke_contents table:not(.rf-tablegrid), .content table:not(.rf-tablegrid) {
-    border: 0px;
+    border:1px solid #eee;
 }
 
 table td, .bck-table td {
@@ -2838,12 +2838,20 @@ table td.bck-td-3 {
 
 /*tabla 2*/
 
+.bck-table {
+    background: linear-gradient(to right, #e8a143 0%, #ffd050 100%);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
 table td.bck-td-4 {
     background-color: #E6E7E8;
 }
 
-/*tabla especial*/
-.bck-table .bck-t-align-center, .bck-t-align-center {
+
+/*centrar*/
+.bck-t-align-center, .bck-t-align-center {
     text-align: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 22px;
