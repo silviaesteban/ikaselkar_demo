@@ -2809,7 +2809,7 @@ table td, .bck-table td {
 
 /*tabla 1*/
 
-table td.bck-td-1 {
+.content table td.bck-td-1 {
     background-color: #ABD25F;
     padding: 6px;
     border-radius: 15px;
@@ -2817,14 +2817,14 @@ table td.bck-td-1 {
     width: 5%;
 }
 
-table td.bck-td-2 {
+.content table td.bck-td-2 {
     background-color: #BAE3E6;
     padding: 6px;
     border-radius: 15px;
     border: 5px solid #ffffff;
 }
 
-table td.bck-td-3 {
+.content table td.bck-td-3 {
     background-color: #DADBDC;
     padding: 6px;
     border-radius: 15px;
@@ -2840,7 +2840,7 @@ table td.bck-td-3 {
 }
 
 
-table td.bck-td-4 {
+.content table td.bck-td-4 {
     background-color: #E6E7E8;
 }
 
