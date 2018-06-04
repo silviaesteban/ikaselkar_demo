@@ -2799,12 +2799,12 @@ strong {
     padding: 7px;
 }
 
-.cke_contents table:not(.rf-tablegrid) td, .cke_contents table.rf-tablegrid) th{
-    border:1px solid #eee;
+.cke_contents table:not(.rf-tablegrid) td, .cke_contents table.rf-tablegrid th{
+    border:0px solid #eee;
     padding: 7px;
 }
 
-.cke_contents table:not(.rf-tablegrid), .content table(.rf-tablegrid) {
+.cke_contents table:not(.rf-tablegrid), .content table.rf-tablegrid {
     border:0px;
 }
 
@@ -3239,5 +3239,3 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
-
-
