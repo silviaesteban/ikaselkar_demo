@@ -2807,18 +2807,31 @@ table td, .bck-table td {
     padding: 10px;
 }
 
+/*tabla 1*/
+
 table td.bck-td-1 {
-    color: #fff;
-    background-color: #9ACB1E;
+    background-color: #ABD25F;
+    padding: 6px;
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    width: 5%;
 }
 
 table td.bck-td-2 {
-    background-color: #DCE29F;
+    background-color: #BAE3E6;
+    padding: 6px;
+    border-radius: 15px;
+    border: 5px solid #ffffff;
 }
 
 table td.bck-td-3 {
-    background-color: #E5E9B7;
+    background-color: #DADBDC;
+    padding: 6px;
+    border-radius: 15px;
+    border: 5px solid #ffffff;
 }
+
+/*tabla 2*/
 
 table td.bck-td-4 {
     background-color: #E6E7E8;
