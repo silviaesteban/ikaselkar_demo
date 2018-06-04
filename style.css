@@ -2794,12 +2794,13 @@ strong {
 /**TABLA**/
 
 
-.content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
+.cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
+    border: none;
     padding: 7px;
 }
 
 .cke_contents table:not(.rf-tablegrid), .content table:not(.rf-tablegrid) {
-     border: 0px solid #CBCCCD;
+    border: none;
 }
 
 table td, .bck-table td {
@@ -2842,7 +2843,6 @@ table td.bck-td-3 {
 table td.bck-td-4 {
     background-color: #E6E7E8;
 }
-
 
 /*centrar*/
 .bck-t-align-center, .bck-t-align-center {
