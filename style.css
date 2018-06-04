@@ -2800,11 +2800,7 @@ strong {
 }
 
 .cke_contents table:not(.rf-tablegrid), .content table:not(.rf-tablegrid) {
-     border:0px;
-}
-
-.cke_contents table:not(.rf-tablegrid), .content table:not(.rf-tablegrid) {
-    border:0px;
+     border: 0px solid #CBCCCD;
 }
 
 table td, .bck-table td {
@@ -3238,5 +3234,3 @@ table td.bck-td-4 {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
-
-
