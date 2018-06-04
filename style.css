@@ -2794,13 +2794,18 @@ strong {
 /**TABLA**/
 
 
-.cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
+.content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
     border: 1px;
     padding: 7px;
 }
 
+.cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th{
+    border:1px solid #eee
+    padding: 7px;
+}
+
 .cke_contents table:not(.rf-tablegrid), .content table:not(.rf-tablegrid) {
-    border: 1px;
+    border: 0px;
 }
 
 table td, .bck-table td {
