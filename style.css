@@ -2795,17 +2795,17 @@ strong {
 
 
 .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
+    border:0px;
+    padding: 7px;
+}
+
+.cke_contents table:not(.rf-tablegrid) td, .cke_contents table.rf-tablegrid) th{
     border:1px solid #eee;
     padding: 7px;
 }
 
-.cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th{
-    border:1px solid #eee;
-    padding: 7px;
-}
-
-.cke_contents table:not(.rf-tablegrid), .content table:not(.rf-tablegrid) {
-    border:1px solid #eee;
+.cke_contents table:not(.rf-tablegrid), .content table(.rf-tablegrid) {
+    border:0px;
 }
 
 table td, .bck-table td {
