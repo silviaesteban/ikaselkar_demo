@@ -2795,12 +2795,12 @@ strong {
 
 
 .cke_contents table:not(.rf-tablegrid) td, .cke_contents table:not(.rf-tablegrid) th, .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
-    border: none;
+    border: 1px;
     padding: 7px;
 }
 
 .cke_contents table:not(.rf-tablegrid), .content table:not(.rf-tablegrid) {
-    border: none;
+    border: 1px;
 }
 
 table td, .bck-table td {
