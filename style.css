@@ -2841,7 +2841,8 @@ table td, .bck-table td {
 
 
 .content table td.bck-td-4 {
-    background-color: #E6E7E8;
+    border-bottom: 2px dotted rgb(88, 88, 90);
+    background-color: rgb(244, 243, 242);
 }
 
 /*centrar*/
@@ -3233,5 +3234,3 @@ table td, .bck-table td {
     margin: 9px 0;
     background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
 }
-
-
