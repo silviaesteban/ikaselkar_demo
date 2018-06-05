@@ -2845,6 +2845,39 @@ table td, .bck-table td {
     background-color: rgb(244, 243, 242);
 }
 
+
+/*tabla 3*/
+
+.bck-table-1 {
+    background: linear-gradient(to bottom, #39a2c8 0%, #99c9a3 100%);
+    border-radius: 12px;
+}
+
+
+/*tabla 4*/
+.bck-table-2 {
+    background: linear-gradient(to left, #903887 0%, #c5528f 100%);
+    border-radius: 12px;
+}
+
+/*celdas de la tabla 5*/
+
+.content table td.bck-td-5 {
+    border-bottom: 2px dotted rgb(88, 88, 90);
+    background-color: rgb(244, 243, 242);
+}
+
+
+.content table td.bck-td-6 {
+    background: #BDE0D8;
+}
+
+
+.content table td.bck-td-6 {
+    background: #E1E045;
+}
+
+
 /*centrar*/
 .bck-t-align-center, .bck-t-align-center {
     text-align: center;
