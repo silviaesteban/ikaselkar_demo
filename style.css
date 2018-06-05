@@ -2863,8 +2863,7 @@ table td, .bck-table td {
 /*celdas de la tabla 5*/
 
 .content table td.bck-td-5 {
-    border-bottom: 2px dotted rgb(88, 88, 90);
-    background-color: rgb(244, 243, 242);
+    background: linear-gradient(to right, #ffbd5b 0%, #c45d02 100%);
 }
 
 
