@@ -1911,14 +1911,14 @@ strong {
 .bck-box-4.center {
     background-color: #F6F6F6;
     padding: 15px;
-    border-radius: 22px;
-    box-shadow: 0px 2px 15px 8px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px #cfcfd1;
 }
 
 
 .bck-box-4.center .bck-title {
     font-size: 2rem;
-    border-radius: 22px 22px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     color: white;
     background-color: #df1b7a;
     font-weight: 600;
