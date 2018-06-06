@@ -1994,7 +1994,7 @@ strong {
     background: url(../ikaselkar_demo/imagenes/04kuadernoa23052018.png) repeat-y;
     padding: 23px 17px 36px 80px;
     background-size: cover;
-    box-shadow: 5px 5px 15px #888888;
+    box-shadow: 20px 13px 20px #888888;
 }
 
 .bck-box.bck-box-8.center {
@@ -2002,7 +2002,7 @@ strong {
     background: url(../ikaselkar_demo/imagenes/kuadernoa2305201802.png) repeat-y;
     background-size: cover;
     padding: 20px 17px 30px 95px;
-    box-shadow: 5px 5px 15px #888888;
+   box-shadow: 20px 13px 20px #888888;
 }
 
 
@@ -2014,7 +2014,7 @@ strong {
     background-color: #f7f7f5;
     background-repeat-y: no-repeat;
     background-repeat-x: repeat;
-    box-shadow: 5px 5px 15px #888888;
+    box-shadow:20px 13px 20px #888888;
 }
 
 .bck-box.bck-box-10.center {
@@ -2022,7 +2022,7 @@ strong {
     background: url(../ikaselkar_demo/imagenes/kuadernoa2305201805.png) repeat-y;
     padding: 56px 17px 36px 34px;
     background-size: cover;
-    box-shadow: 5px 5px 15px #888888;
+    box-shadow: 20px 13px 20px #888888;
 }
 
 /*caja IKERGAIA 1*/
