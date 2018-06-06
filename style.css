@@ -1365,7 +1365,7 @@ body:not(.edit) .slider-indicators {
     box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.39);
 }
 
-bck-title.bck-title-33 strong {
+.bck-title.bck-title-33 strong {
     color: #fff;
     width: fit-content;
     border-radius: 0px 30px 30px 0px;
