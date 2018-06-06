@@ -1994,6 +1994,7 @@ strong {
     background: url(../ikaselkar_demo/imagenes/04kuadernoa23052018.png) repeat-y;
     padding: 23px 17px 36px 80px;
     background-size: cover;
+    box-shadow: 5px 5px 15px #888888;
 }
 
 .bck-box.bck-box-8.center {
@@ -2001,6 +2002,7 @@ strong {
     background: url(../ikaselkar_demo/imagenes/kuadernoa2305201802.png) repeat-y;
     background-size: cover;
     padding: 20px 17px 30px 95px;
+    box-shadow: 5px 5px 15px #888888;
 }
 
 
@@ -2012,6 +2014,7 @@ strong {
     background-color: #f7f7f5;
     background-repeat-y: no-repeat;
     background-repeat-x: repeat;
+    box-shadow: 5px 5px 15px #888888;
 }
 
 .bck-box.bck-box-10.center {
@@ -2019,6 +2022,7 @@ strong {
     background: url(../ikaselkar_demo/imagenes/kuadernoa2305201805.png) repeat-y;
     padding: 56px 17px 36px 34px;
     background-size: cover;
+    box-shadow: 5px 5px 15px #888888;
 }
 
 /*caja IKERGAIA 1*/
@@ -2178,6 +2182,8 @@ strong {
     color: #FFFFFF;
 }
 
+/*ikarketa 5*/
+
 .bck-box.bck-box-21.center {
     border-left: 46px solid #B3C930;
     display: block;
@@ -2206,6 +2212,48 @@ strong {
 
 .bck-box.bck-box-21.center:before{
     content: "5";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    
+}
+
+/*ikarketa 6*/
+
+.bck-box.bck-box-22.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-22 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.bck-box-22 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    
+}
+
+.bck-box.bck-box-22.center:before{
+    content: "6";
     align-content: center;
     justify-content: center;
     position: absolute;
@@ -2248,6 +2296,14 @@ strong {
     font-size: 36px;
     color: #FFFFFF;
     
+}
+
+.bck-box-15 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+  
 }
 
 .bck-box.bck-box-16.center {
@@ -2370,6 +2426,8 @@ strong {
     
 }
 
+/*ikarketa E*/
+
 .bck-box.bck-box-19.center {
     border-left: 46px solid #B3C930;
     display: block;
@@ -2410,6 +2468,49 @@ strong {
    
 }
 
+/*ikarketa F*/
+
+.bck-box.bck-box-23.center {
+    border-left: 46px solid #B3C930;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to right, #06B4BC 0%, #008A87 100%);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.bck-box-23 .bck-title {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.bck-box-23 .bck-content {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+   
+}
+
+.bck-box.bck-box-23.center:before{
+    content: "F";
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: -32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+   
+}
+
+
 /*por definir el nombre*/
 .bck-box.bck-box-14.center {
     position: relative;
@@ -2434,13 +2535,7 @@ strong {
     left: 0px;
   }
 
-.bck-box-15 .bck-content {
-    padding: 10px;
-    background: #fff;
-    border-radius: 0px 0px 10px 10px;
-    text-align: center;
-  
-}
+
 
 /*ENLACES*/
 
