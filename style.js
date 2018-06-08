@@ -175,7 +175,7 @@
 				units = curso.responseJSON.units;
 
 				$.each(units, function () {
-					if (this.title && this.title == blink.courseInfo.unit) {
+					if (this.id && this.id == blink.courseInfo.IDUnit) {
 						unitSubunits = this.subunits.concat(this.resources);
 					}
 				});
@@ -184,7 +184,7 @@
 					return subunit.id == idclase;
 				});
 
-				if (actualActivity.level == '6') {
+				if (typeof actualActivity !== "undefined" && actualActivity.level == '6') {
 					unitActivities.push(actualActivity);
 				} else {
 					unitActivities = _.filter(unitSubunits, function(subunit) {
