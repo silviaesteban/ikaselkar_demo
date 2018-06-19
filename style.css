@@ -2087,7 +2087,7 @@ strong {
 		      linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%),
 		      linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
     background-position: 4px 1px, 4px 0px, 50% 0px;
-    background-repeat: repeat-x, repeat-x, repeat;
+    background-repeat: repeat-x, repeat-x, repeat,repeat;
     background-size: 30px 30px, 30px 30px, 30px 30px;
     padding: 38px 10px 10px 10px; 
     box-shadow: 20px 13px 20px #888888;
