@@ -2034,14 +2034,17 @@ strong {
 
 
 .bck-box.bck-box-9.center {
+    margin: 10px;
+    background: #f6f6f3;
+    box-shadow: 0px 3px 15px hsla(0,0%,0%,.08);
     position: relative;
-    background-image: url(../ikaselkar_demo/imagenes/06kuadernoa23052018.png);
-    padding: 70px 25px 36px 25px;
-    background-size: 95%;
-    background-color: #f7f7f5;
-    background-repeat-y: no-repeat;
-    background-repeat-x: repeat;
-    box-shadow:20px 13px 20px #888888;
+    background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%), -webkit-radial-gradient(#cfcfc3 38%, transparent 24%), -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 100%);
+    background-image: -moz-radial-gradient(#d6d5d6 30%, transparent 20%), -moz-radial-gradient(#cfcfc3 38%, transparent 24%), -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
+    background-image: radial-gradient(#d6d5d6 30%, transparent 20%), radial-gradient(#cfcfc3 38%, transparent 24%), linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
+    background-position: 4px 1px, 4px 0px, 50% 0px;
+    background-repeat: repeat-x, repeat-x, repeat;
+    background-size: 30px 30px, 30px 30px, 30px 30px;
+    padding: 38px 10px 10px 10px;
 }
 
 .bck-box.bck-box-10.center {
