@@ -55,14 +55,14 @@ body {
 /*ENLACE WEB*/
 
 #actividad a {
-    -webkit-border-radius: 2px;
-       -moz-border-radius: 2px;
-            border-radius: 2px;
-    background-color: #F9F2F4;
     padding: 0px 5px;
-    color: #AECE5D;
+    color: #6e8fc5;
     font-weight: 600;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+#actividad a:hover {
+    color: #6e8fc5;
 }
 
 #actividad .cke_top a {
@@ -675,7 +675,7 @@ body:not(.edit) .slider-indicators {
 }
 
 #actividad .player.audio {
-    background-image: url(audio_icon.png);
+    background-image:  url(../ikaselkar_demo/imagenes/classic_audio.png);
     -webkit-background-size: 100% 100%;
        -moz-background-size: 100%;
          -o-background-size: 100%;
@@ -2010,7 +2010,7 @@ strong {
     background-repeat: repeat-y, repeat-y, repeat;
     background-size: 30px 30px, 30px 30px, 30px 30px;
     padding: 10px 10px 10px 50px;
-    box-shadow: 20px 13px 20px #888888;
+    box-shadow: 0px 3px 15px hsla(0,0%,0%,0.8);
 }
 
 .bck-box.bck-box-8.center {
@@ -2040,7 +2040,7 @@ strong {
 	    background-repeat: repeat-y, repeat-y, repeat,repeat;
 	    background-size: 30px 30px, 30px 30px, 30px 30px;
 	    padding: 10px 10px 10px 50px;
-	   box-shadow: 20px 13px 20px #888888;
+	    box-shadow: 0px 3px 15px hsla(0,0%,0%,0.8);
 }
 
 
@@ -2062,7 +2062,7 @@ strong {
     background-repeat: repeat-x, repeat-x, repeat;
     background-size: 30px 30px, 30px 30px, 30px 30px;
     padding: 38px 10px 10px 10px;
-    box-shadow: 20px 13px 20px #888888;
+    box-shadow: 0px 3px 15px hsla(0,0%,0%,0.8);
 }
 
 .bck-box.bck-box-10.center {
@@ -2088,7 +2088,7 @@ strong {
     background-repeat: repeat-x, repeat-x, repeat,repeat;
     background-size: 30px 30px, 30px 30px, 30px 30px;
     padding: 38px 10px 10px 10px; 
-    box-shadow: 20px 13px 20px #888888;
+    box-shadow: 0px 3px 15px hsla(0,0%,0%,0.8);
 }
 
 /*caja IKERGAIA 1*/
@@ -3002,7 +3002,7 @@ table td, .bck-table td {
 
 
 .content table td.bck-td-4 {
-    border-bottom: 2px dotted rgb(88, 88, 90);
+    border-bottom: 1px solid rgb(88, 88, 90);
     background-color: rgb(244, 243, 242);
 }
 
@@ -3425,7 +3425,7 @@ table td, .bck-table td {
     width: 50px;
     height: 30px;
     margin: 9px 0;
-    background: url(/useruploads/r/a/85003699/activity_other_imported/ikalogo.png) center center / cover no-repeat;
+    background: url(../ikaselkar_demo/imagenes/ikalogo.png) center center / cover no-repeat;
 }
 
 
