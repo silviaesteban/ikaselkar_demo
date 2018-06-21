@@ -92,7 +92,7 @@
 				{ name: 'Ikerketa-kaxa E', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-19' } },
 				{ name: 'Ikerketa-kaxa F', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-23' } },
 
-				{ name: '14', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
+				{ name: 'Pasartea-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
 
 				{ name: 'Taula 1', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
 				{ name: 'Taula 2', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
