@@ -1393,13 +1393,10 @@ body:not(.edit) .slider-indicators {
 
 
 .bck-enfasis, strong{
-color:black;
+    color: inherit;
     font-weight: 600;
 }
 
-strong {
-    color: black;
-}
 
 /*LISTAS DESORDENADAS*/
 
