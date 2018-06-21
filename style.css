@@ -1776,16 +1776,14 @@ strong {
     max-width: 100%;
     margin-bottom: 20px;
     text-align: left;
-    background: #fff;
 }
 
 .bck-box.center {
     display: block;
-    background-color: #fff;
     text-align: left;
     padding: 5px;
-
 }
+
 .bck-box p {
     display: inline-block;
     width: 100%;
