@@ -95,8 +95,8 @@
 				{ name: 'Pasartea-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
 
 				{ name: 'Taula 1', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
-				{ name: 'Taula 2', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
-				{ name: 'Taula 3', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
+				{ name: 'Taula 2', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-1'} },
+				{ name: 'Taula 3', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Zelula 1', element: 'td', attributes: { 'class': 'bck-td bck-td-1'} },
 				{ name: 'Zelula 2', element: 'td', attributes: { 'class': 'bck-td bck-td-2'} },
 				{ name: 'Zelula 3', element: 'td', attributes: { 'class': 'bck-td bck-td-3'} },
