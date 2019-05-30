@@ -2085,7 +2085,7 @@ body:not(.edit) .slider-indicators {
     font-size: 2.4rem;
     font-weight: 400;
     width: fit-content;
-    padding: 2px 70px;
+    padding: 2px 70px 2px 95px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #888888;
     margin-left: -20px;
@@ -2130,7 +2130,7 @@ body:not(.edit) .slider-indicators {
     font-size: 2.4rem;
     font-weight: 400;
     width: fit-content;
-    padding: 2px 70px;
+    padding: 2px 70px 2px 95px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #888888;
     margin-left: -20px;
@@ -2153,6 +2153,7 @@ body:not(.edit) .slider-indicators {
     left: 20px;
     width: auto;
 }
+
 
 
 
