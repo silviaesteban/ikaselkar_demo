@@ -2252,7 +2252,7 @@ body:not(.edit) .slider-indicators {
 .bck-box.bck-box-24 {
     color: #0FA2CC;
     background: #E4E4E4;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 5px 5px 0px;
     width: fit-content;
     height: auto;
     -webkit-box-shadow: 0 10px 10px 2px #878787;
