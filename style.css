@@ -2257,7 +2257,7 @@ body:not(.edit) .slider-indicators {
     height: auto;
     -webkit-box-shadow: 0 10px 10px 2px #878787;
 	box-shadow: 0 10px 10px 2px #878787;
-	padding: 5px 70px;
+	padding: 5px 10px;
 	font-size: 2.4rem;
 	font-weight: 700;
 
@@ -2270,7 +2270,7 @@ body:not(.edit) .slider-indicators {
    text-align: center;
    font-size: 2.4rem;
    position: absolute;
-   top: 25%;
+   top: 0;
    left: 0px;
    font-weight: 600;
    -webkit-box-shadow: 0 10px 10px 2px #878787;
