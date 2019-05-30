@@ -2296,12 +2296,13 @@ body:not(.edit) .slider-indicators {
 /*Dropdown 3*/
 
 .bck-dropdown.bck-dropdown-3 {
-    background-color: #9ACB1E;
+    background: linear-gradient(to right, #00aad1 0%, #ffffff 100%);
     border: 1px solid #DDDDDD;
     margin-top: 10px;
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
+    padding: 10px;
 }
 
 .bck-dropdown-3 .bck-dropdown-button {
@@ -2316,7 +2317,7 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-dropdown-3 .bck-dropdown-icon > .fa {
-    border: 0px solid white;
+    display: none!important;
 }
 
 .bck-dropdown-3 .fa-chevron-up:before, .bck-dropdown-1 .fa-chevron-down:before {
@@ -2324,8 +2325,9 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-dropdown-3 .bck-dropdown-titulo {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     padding-left: 0px;
+    font-family: myriadpro;
 }
 
 
