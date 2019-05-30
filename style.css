@@ -2255,11 +2255,11 @@ body:not(.edit) .slider-indicators {
     border-radius: 0px 5px 5px 0px;
     width: fit-content;
     height: auto;
-    -webkit-box-shadow: 0 10px 10px 2px #878787;
-	box-shadow: 0 10px 10px 2px #878787;
-	padding: 5px 10px;
+    -webkit-box-shadow: 0 5px 5px 1px #878787;
+	box-shadow: 0 5px 5px 1px #878787;
+	padding: 5px 60px;
 	font-size: 2.4rem;
-	font-weight: 700;
+	font-weight: 600;
 
 }
 
@@ -2273,8 +2273,8 @@ body:not(.edit) .slider-indicators {
    top: 0;
    left: 0px;
    font-weight: 600;
-   -webkit-box-shadow: 0 10px 10px 2px #878787;
-	box-shadow: 0 10px 10px 2px #878787;
+   -webkit-box-shadow: 0 5px 5px 1px #878787;
+	box-shadow: 0 5px 5px 1px #878787;
 }
 
 
