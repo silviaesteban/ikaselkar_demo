@@ -2010,7 +2010,7 @@ body:not(.edit) .slider-indicators {
     content: counter(bck-li-counter, upper-alpha)"";
     color: white;
     font-weight: 700;
-    padding: 2px 20px 2px 20px;
+    padding: 2px 20px;
     margin-right: 11px;
     background: #EAB737;
     border-bottom-left-radius: 10px;
@@ -2018,6 +2018,7 @@ body:not(.edit) .slider-indicators {
     font-size: 2.4rem;
     top:0px;
     left: 20px;
+    width: auto;
 }
 
 
@@ -2039,7 +2040,7 @@ body:not(.edit) .slider-indicators {
     font-size: 2.4rem;
     font-weight: 400;
     width: fit-content;
-    padding: 2px 70px 2px 70px;
+    padding: 2px 70px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px #888888;
     margin-left: -20px;
@@ -2060,6 +2061,7 @@ body:not(.edit) .slider-indicators {
     font-size: 2.4rem;
     top:0px;
     left: 20px;
+	width: auto;
 }
 
 /*-------------------------------------------------Azpizeregina-Berdea-AB----------------------------------*/
@@ -2083,7 +2085,7 @@ body:not(.edit) .slider-indicators {
     font-size: 2.4rem;
     font-weight: 400;
     width: fit-content;
-    padding: 2px 70px 2px 70px;
+    padding: 2px 70px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #888888;
     margin-left: -20px;
@@ -2093,10 +2095,10 @@ body:not(.edit) .slider-indicators {
 #actividad .content .texto_curso ol.bck-ol-17 li:before, 
 #actividad .popover-content ol.bck-ol-17 li:before, 
 #actividad .content .workspace ul li ol.bck-ol-17 li:before {
-    content: counter(bck-li-counter, upper-alpha)"A/B";
+    content: "A/B";
     color: white;
     font-weight: 700;
-    padding: 5px 20px;
+    padding: 2px 20px;
     margin-right: 11px;
     background: linear-gradient(to right, rgba(183,207,88,1) 0%, rgba(151,184,84,1) 100%);
     border-bottom-left-radius: 10px;
@@ -2104,6 +2106,7 @@ body:not(.edit) .slider-indicators {
     font-size: 2.4rem;
     top:0px;
     left: 20px;
+    width: auto;
 }
 
 /*-------------------------------------------------Azpizeregina-Berdea-BC----------------------------------*/
@@ -2127,7 +2130,7 @@ body:not(.edit) .slider-indicators {
     font-size: 2.4rem;
     font-weight: 400;
     width: fit-content;
-    padding: 2px 70px 2px 70px;
+    padding: 2px 70px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #888888;
     margin-left: -20px;
@@ -2137,10 +2140,10 @@ body:not(.edit) .slider-indicators {
 #actividad .content .texto_curso ol.bck-ol-18 li:before, 
 #actividad .popover-content ol.bck-ol-18 li:before, 
 #actividad .content .workspace ul li ol.bck-ol-18 li:before {
-    content: counter(bck-li-counter, upper-alpha)"B/C";
+    content: "B/C";
     color: white;
     font-weight: 700;
-    padding: 5px 20px;
+    padding: 2px 20px;
     margin-right: 11px;
     background: linear-gradient(to right, rgba(183,207,88,1) 0%, rgba(151,184,84,1) 100%);
     border-bottom-left-radius: 10px;
@@ -2148,17 +2151,8 @@ body:not(.edit) .slider-indicators {
     font-size: 2.4rem;
     top:0px;
     left: 20px;
+    width: auto;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
