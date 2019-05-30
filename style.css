@@ -2296,7 +2296,7 @@ body:not(.edit) .slider-indicators {
 /*Dropdown 3*/
 
 .bck-dropdown.bck-dropdown-3 {
-    background: linear-gradient(to right, #00aad1 0%, #ffffff 100%);
+    
     border: 1px solid #DDDDDD;
     margin-top: 10px;
     -webkit-border-radius: 5px;
@@ -2308,6 +2308,7 @@ body:not(.edit) .slider-indicators {
 .bck-dropdown-3 .bck-dropdown-button {
     margin-top: 0px;
     font-size: 1.2rem;
+    background: linear-gradient(to right, #00aad1 0%, #ffffff 100%);
 }
 
 .bck-dropdown-3 .bck-dropdown-icon {
@@ -2317,7 +2318,7 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-dropdown-3 .bck-dropdown-icon > .fa {
-    border: 0px solid white;
+    border: 0px solid white!important;
 }
 
 .bck-dropdown-3 .fa-chevron-up:before, .bck-dropdown-3 .fa-chevron-down:before {
