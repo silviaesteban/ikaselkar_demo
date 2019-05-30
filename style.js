@@ -68,6 +68,10 @@
 				{ name: 'Azpizeregina-titulua', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-7' } },
 				{ name: 'Ikerketa-titulua', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-8' } },
 				
+				//titulos-listas añadidos david prueba
+				{ name: 'Azpizeregina-titulua-Laranja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-15' } },
+				{ name: 'Azpizeregina-titulua-Gorria', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-16' } },
+				
 				{ name: 'Koloredun-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Azalpen-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
 				{ name: 'Oharra-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
