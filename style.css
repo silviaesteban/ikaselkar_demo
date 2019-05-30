@@ -2291,7 +2291,51 @@ body:not(.edit) .slider-indicators {
 	box-shadow: 0px 0px 0px 5px #cfcfd1;
 }
 
+/*-----------------------------------------Desplegable Azul Claro - Desplegable 3-----------------------*/
 
+/*Dropdown 3*/
+
+.bck-dropdown.bck-dropdown-3 {
+    background-color: #9ACB1E;
+    border: 1px solid #DDDDDD;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.bck-dropdown-3 .bck-dropdown-button {
+    margin-top: 0px;
+    font-size: 1.2rem;
+}
+
+.bck-dropdown-3 .bck-dropdown-icon {
+    background-color: #9ACB1E;
+    width: 25px;
+    height: 10px;
+}
+
+.bck-dropdown-3 .bck-dropdown-icon > .fa {
+    border: 0px solid white;
+}
+
+.bck-dropdown-3 .fa-chevron-up:before, .bck-dropdown-1 .fa-chevron-down:before {
+    font-size: 1.2rem;
+}
+
+.bck-dropdown-3 .bck-dropdown-titulo {
+    font-size: 1.8rem;
+    padding-left: 0px;
+}
+
+
+.bck-dropdown-3 .bck-dropdown-content {
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    padding-left: 17px;
+    max-height: 800%;
+    overflow-y: visible;
+}
 
 
 
