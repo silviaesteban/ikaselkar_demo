@@ -130,6 +130,11 @@
 				{ name: 'Zelula 7', element: 'td', attributes: { 'class': 'bck-td bck-td-7'} },
 				{ name: 'Enlace web', element: 'a', attributes: { 'class': 'bck-link'} },
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } },
+				
+				//Desplegable creado por david
+				
+				{ name: 'Desplegable 3', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-3' } },
+				
 				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-2' } }
 			]
 		},
