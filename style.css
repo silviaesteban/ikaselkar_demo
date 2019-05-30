@@ -2278,8 +2278,21 @@ body:not(.edit) .slider-indicators {
 }
 
 
-    
+/*-----------------------------------------Caja 25 de Respuesta libre - erantzun-kaxa -----------------*/
+
+.bck-box.bck-box-25 {
+	margin: auto;
+	display: block;
+	text-align: left;
+	padding: 12px; 
+	width: 90%;
+	background-color: #F6F6F6;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 5px #cfcfd1;
+}
+
   
+
 
 
 
