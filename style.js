@@ -112,6 +112,10 @@
 				{ name: 'Ikerketa-kaxa F', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-23' } },
 
 				{ name: 'Pasartea-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
+				
+				//Caja añadida por David
+				
+				{ name: 'Azpititulua-DAF', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-24' } },
 
 				{ name: 'Taula 1', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
 				{ name: 'Taula 2', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-1'} },
