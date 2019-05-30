@@ -113,10 +113,11 @@
 
 				{ name: 'Pasartea-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
 				
-				//Caja añadida por David
+				//Cajas añadidas por David
 				
 				{ name: 'Azpititulua-DAF', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-24' } },
-
+				{ name: 'Erantzun-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-25' } },
+				
 				{ name: 'Taula 1', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
 				{ name: 'Taula 2', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-1'} },
 				{ name: 'Taula 3', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
