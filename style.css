@@ -2311,23 +2311,22 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-dropdown-3 .bck-dropdown-icon {
-    background-color: #9ACB1E;
+    background-color: #04ABD2;
     width: 25px;
     height: 10px;
 }
 
 .bck-dropdown-3 .bck-dropdown-icon > .fa {
-    display: none!important;
+    border: 0px solid white;
 }
 
-.bck-dropdown-3 .fa-chevron-up:before, .bck-dropdown-1 .fa-chevron-down:before {
+.bck-dropdown-3 .fa-chevron-up:before, .bck-dropdown-3 .fa-chevron-down:before {
     font-size: 1.2rem;
 }
 
 .bck-dropdown-3 .bck-dropdown-titulo {
     font-size: 2.8rem;
     padding-left: 0px;
-    font-family: myriadpro;
 }
 
 
