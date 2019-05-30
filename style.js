@@ -84,6 +84,8 @@
 				{ name: 'Azpizeregina-titulua-Gorria', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-16' } },
 				{ name: 'Azpizeregina-Berdea-AB', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-17' } },
 				{ name: 'Azpizeregina-Berdea-BC', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-18' } },
+				{ name: 'Azpizeregina-Gorria-AB', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-19' } },
+				{ name: 'Azpizeregina-Laranja-AB', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-20' } },
 				
 				{ name: 'Koloredun-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Azalpen-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
