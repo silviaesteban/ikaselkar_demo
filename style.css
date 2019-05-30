@@ -2303,7 +2303,7 @@ body:not(.edit) .slider-indicators {
     margin-top: 0px;
     font-size: 1.2rem;
     background: linear-gradient(to right, #00aad1 0%, #ffffff 100%);
-    padding: 10px;
+    padding: 15px;
 }
 
 .bck-dropdown-3 .bck-dropdown-icon {
