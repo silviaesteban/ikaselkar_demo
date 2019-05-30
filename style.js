@@ -56,6 +56,10 @@
                                 { name: 'Título 31', element: 'h3', attributes: { 'class': 'bck-title bck-title-31'} },
                                 { name: 'Sekuentzia-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-32'} },
                                 { name: 'Zeregina-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-33'} },
+				
+				//Añadido David titulo
+				{ name: 'Zeregina-DAF-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-34'} },
+				
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 				
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
