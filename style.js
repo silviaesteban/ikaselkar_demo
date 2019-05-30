@@ -69,6 +69,13 @@
 				{ name: 'Ikerketa-titulua', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-8' } },
 				
 				//titulos-listas añadidos david prueba
+				
+				{ name: 'Lista Ordenada 7', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-9' } },
+				{ name: 'Lista Ordenada 8', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-10' } },
+				{ name: 'Lista Ordenada 9', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-11' } },
+				{ name: 'Lista Ordenada 10', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-12' } },
+				{ name: 'Lista Ordenada 11', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-13' } },
+				{ name: 'Lista Ordenada 12', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-14' } },				
 				{ name: 'Azpizeregina-titulua-Laranja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-15' } },
 				{ name: 'Azpizeregina-titulua-Gorria', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-16' } },
 				
