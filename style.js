@@ -65,7 +65,7 @@
 				{ name: 'Hasiera', element: 'h3', attributes: { 'class': 'bck-title bck-title-35'} },
                                 { name: 'Garapena', element: 'h3', attributes: { 'class': 'bck-title bck-title-36'} },
                                 { name: 'Amaiera', element: 'h3', attributes: { 'class': 'bck-title bck-title-37'} },
-				 { name: 'Amaiera', element: 'h3', attributes: { 'class': 'bck-title bck-title-38'} },
+				 { name: 'Diziplinarteko-Koadernoa', element: 'h3', attributes: { 'class': 'bck-title bck-title-38'} },
 				
 				
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
