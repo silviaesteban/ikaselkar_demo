@@ -65,9 +65,19 @@
 				{ name: 'Hasiera', element: 'h3', attributes: { 'class': 'bck-title bck-title-35'} },
                                 { name: 'Garapena', element: 'h3', attributes: { 'class': 'bck-title bck-title-36'} },
                                 { name: 'Amaiera', element: 'h3', attributes: { 'class': 'bck-title bck-title-37'} },
+				 { name: 'Amaiera', element: 'h3', attributes: { 'class': 'bck-title bck-title-38'} },
 				
 				
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
+				
+				//Enfasis para los libros 4
+				{ name: 'Énfasis1', element: 'span', attributes: { 'class': 'bck-enfasis1'} },
+				{ name: 'Énfasis2', element: 'span', attributes: { 'class': 'bck-enfasis2'} },
+				{ name: 'Énfasis3', element: 'span', attributes: { 'class': 'bck-enfasis3'} },
+				{ name: 'Énfasis4', element: 'span', attributes: { 'class': 'bck-enfasis4'} },
+				{ name: 'Énfasis5', element: 'span', attributes: { 'class': 'bck-enfasis5'} },
+				{ name: 'Énfasis6', element: 'span', attributes: { 'class': 'bck-enfasis6'} },
+				
 				
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
 				{ name: 'Lista Ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
