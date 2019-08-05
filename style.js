@@ -60,6 +60,13 @@
 				//Añadido David titulo
 				{ name: 'Zeregina-DAF-titulua', element: 'h3', attributes: { 'class': 'bck-title bck-title-34'} },
 				
+				//Añadido libros 4 Titulos
+				
+				{ name: 'Hasiera', element: 'h3', attributes: { 'class': 'bck-title bck-title-35'} },
+                                { name: 'Garapena', element: 'h3', attributes: { 'class': 'bck-title bck-title-36'} },
+                                { name: 'Amaiera', element: 'h3', attributes: { 'class': 'bck-title bck-title-37'} },
+				
+				
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 				
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
@@ -92,13 +99,13 @@
 				{ name: 'Oharra-kaxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
 				{ name: 'Koloredun-kaxa-tit', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
 				{ name: 'Informazio-testua-h', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
-              	{ name: 'Informazio-testua-g', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
-                { name: 'Koaderno-zuria', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-7' } },
-                { name: 'Koaderno-kuadrikulatua', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
-               	{ name: 'Koaderno-zuria-goi', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
-                { name: 'Koaderno-kuadrikulatua-goi', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
+              			{ name: 'Informazio-testua-g', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
+               		        { name: 'Koaderno-zuria', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-7' } },
+                		{ name: 'Koaderno-kuadrikulatua', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
+               			{ name: 'Koaderno-zuria-goi', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
+               			{ name: 'Koaderno-kuadrikulatua-goi', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
 
-                { name: 'Ikerketa-kaxa 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
+                		{ name: 'Ikerketa-kaxa 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
 				{ name: 'Ikerketa-kaxa 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-12' } },
 				{ name: 'Ikerketa-kaxa 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-13' } },
 				{ name: 'Ikerketa-kaxa 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-20' } },
@@ -131,6 +138,17 @@
 				{ name: 'Enlace web', element: 'a', attributes: { 'class': 'bck-link'} },
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } },
 				
+				//Añadido libros 4 cajas
+				
+				{ name: 'daf-moratua', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-26' } },
+				{ name: 'daf-laranja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-27' } },
+				{ name: 'daf-berdea', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-28' } },
+				{ name: 'daf-arroxa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-29' } },
+				{ name: 'daf-laranja2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-30' } },
+				{ name: 'daf-urdinak', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-31' } },
+				
+				
+	
 				//Desplegable creado por david
 				
 				{ name: 'Desplegable 3', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-3' } },
